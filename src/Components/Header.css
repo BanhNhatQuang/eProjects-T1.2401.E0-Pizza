@@ -1,0 +1,18 @@
+.delivery-img{
+    width: 24px;
+    height: 24px;
+}
+.primary-text-size{
+    font-size: 24px;
+    color: white;
+}
+.Delivery{
+    border-radius: 30px;
+    width: 200px;
+    background-color: red;
+}
+.containerDelivery{
+    background-color: gray;
+    width: 500px;
+    border-radius: 30px;
+}
