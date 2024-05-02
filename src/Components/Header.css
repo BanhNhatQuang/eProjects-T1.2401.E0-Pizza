@@ -1,9 +1,13 @@
+.header{
+    display: flex;
+    align-items: center;
+}
 .delivery-img{
-    width: 24px;
-    height: 24px;
+    width: 14px;
+    height: 14px;
 }
 .primary-text-size{
-    font-size: 24px;
+    font-size: 16px;
     color: white;
 }
 .Delivery{
@@ -13,6 +17,13 @@
 }
 .containerDelivery{
     background-color: gray;
-    width: 500px;
+    width: 400px;
     border-radius: 30px;
+}
+.location{
+    margin-left: 20px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
 }
