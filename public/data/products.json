@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "name": "Pizza Hải Sản Đào",
+        "des": "Tôm, Đào hoà quyện bùng nổ cùng sốt Thousand Island",
+        "price":"169.000đ"
+    },
+    {
+        "id": 2,
+        "name": "Pizza Hải Sản Pesto Xanh",
+        "des": "Tôm, thanh cua, mực và bông cải xanh tươi ngon trên nền sốt Pesto Xanh",
+        "price":"169.000đ"
+    },
+    {
+        "id": 3,
+        "name": "Pizza Hải Sản Cocktail",
+        "des": "Tôm, cua, giăm bông,... với sốt Thousand Island",
+        "price":"159.000đ"
+    },
+    {
+        "id": 4,
+        "name": "Pizza Hải Sản Cao Cấp",
+        "des": "Tôm, cua, mực và nghêu với sốt Marinara",
+        "price":"159.000đ"
+    },
+    {
+        "id": 5,
+        "name": "Pizza Hải Sản Nhiệt Đới",
+        "des": "Tôm, nghêu, mực cua, dứa với sốt Thousand Island",
+        "price":"159.000đ"
+    },
+    {
+        "id": 6,
+        "name": "Pizza Tôm Cocktail",
+        "des": "Tôm với nấm, dứa, cà chua và sốt Thousand Island",
+        "price":"159.000đ"
+    },
+    {
+        "id": 7,
+        "name": "Pizza Aloha",
+        "des": "Thịt nguội, xúc xích tiêu cay và dứa hòa quyện với sốt Thousand Island",
+        "price":"149.000đ"
+    },
+    {
+        "id": 8,
+        "name": "Pizza Thịt Xông Khói",
+        "des": "Thịt giăm bông, thịt xông khói và hai loại rau của ớt xanh, cà chua",
+        "price":"149.000đ"
+    },
+    {
+        "id": 9,
+        "name": "Pizza Thịt Nguội Kiểu Canada",
+        "des": "Sự kết hợp giữa thịt nguội và bắp ngọt",
+        "price":"149.000đ"
+    },
+    {
+        "id": 10,
+        "name": "Pizza Gà Nướng 3 Vị",
+        "des": "Gà nướng, gà bơ tỏi và gà ướp sốt nấm",
+        "price":"149.000đ"
+    },
+    {
+        "id": 11,
+        "name": "Pizza 5 Loại Thịt Đặc Biệt",
+        "des": "Xúc xích lợn và bò đặc trưng của Ý, giăm bông, thịt xông khói",
+        "price":"149.000đ"
+    },
+    {
+        "id": 12,
+        "name": "Pizza 5 Loại Thịt Đặc Biệt Và Rau Củ",
+        "des": "Xúc xích bò, giăm bông, thịt xông khói,...và cả thế giới rau phong phú.",
+        "price":"149.000đ"
+    },
+    {
+        "id": 13,
+        "name": "Pizza Gà Nướng Dứa",
+        "des": "Thịt gà mang vị ngọt của dứa kết hợp với vị cay nóng của ớt",
+        "price":"139.000đ"
+    },
+    {
+        "id": 14,
+        "name": "Pizza Xúc Xích Ý",
+        "des": "Xúc xích cay kiểu Ý trên nền sốt cà chua",
+        "price":"139.000đ"
+    },
+    {
+        "id": 15,
+        "name": "Pizza Thịt Nguội & Nấm",
+        "des": "Pizza giăm bông và nấm đem đến cho bạn những trải nghiệm thú vị.",
+        "price":"139.000đ"
+    },
+    {
+        "id": 16,
+        "name": "Pizza Hawaiian",
+        "des": "Giăm bông, thịt muối và dứa",
+        "price":"139.000đ"
+    },
+    {
+        "id": 17,
+        "name": "Pizza Phô Mai",
+        "des": "Bánh Pizza với vô vàn phô mai để bạn tha hồ tận hưởng.",
+        "price":"119.000đ"
+    },
+    {
+        "id": 18,
+        "name": "Pizza Sốt nấm Truffle & Bông cải xanh",
+        "des": "Với sự kết hợp từ nấm, bông cải xanh và xốt nấm Truffle thơm béo sẽ tạo nên một hương vị khó quên cho những thực khách thích thanh",
+        "price":"119.000đ"
+    },
+    {
+        "id": 19,
+        "name": "Pizza Rau Củ",
+        "des": "Hành, ớt chuông, nấm, dứa, cà chua",
+        "price":"119.000đ"
+    }
+]
