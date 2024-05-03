@@ -3,19 +3,31 @@ import './App.css';
 import Header from './Components/Header';
 import Product from './pages/Product';
 import { useEffect, useState } from 'react';
+import Khaivi from './pages/Khaivi';
+import MyY from './pages/MyY';
 function App() {
     const [products, setProducts] = useState([])
+    const [KhaiVi, setKhaiVi] = useState([])
     useEffect(() => {
-        fetch("/data/products.json")
+        fetch("/data/khai-vi.json")
         .then(res => res.json())
-        .then(data => setProducts(data))
+        .then(data => setKhaiVi(data))
     }, [])
+    useEffect(() => {
+      fetch("/data/products.json")
+      .then(res => res.json())
+      .then(data => setProducts(data))
+  }, [])
     console.log("hello", products);
   return (
     <div className="container">
       <Header></Header>
       <Routes>
         <Route element={<Product setProducts={setProducts} products={products}></Product>} path='/Product'></Route>
+        <Route element={<Khaivi setKhaiVi={setKhaiVi} KhaiVi={KhaiVi}></Khaivi>} path='/Khaivi'></Route>
+        <Route element={<MyY setKhaiVi={setKhaiVi} KhaiVi={KhaiVi}></MyY>} path='/MyY'></Route>
+        <Route element={<Khaivi setKhaiVi={setKhaiVi} KhaiVi={KhaiVi}></Khaivi>} path='/Khaivi'></Route>
+        <Route element={<Khaivi setKhaiVi={setKhaiVi} KhaiVi={KhaiVi}></Khaivi>} path='/Khaivi'></Route>
       </Routes>
     </div>
   );

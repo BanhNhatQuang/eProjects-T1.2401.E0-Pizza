@@ -6,7 +6,7 @@ function Card18(props) {
         <div>
             <div>
             <div className='card2'>
-                    <img className='pic' src='http://thepizzacompany.vn/images/thumbs/000/0003785_trufflemushroomsaucebroccoli_300.png'></img>
+                    <img className='pic' id='PICTURE' src='http://thepizzacompany.vn/images/thumbs/000/0003785_trufflemushroomsaucebroccoli_300.png'></img>
                     <h2 id='cuoi1'>Pizza Sốt nấm Truffle & Bông cải xanh</h2>
                     <div className='des' id='cuoi1'>Với sự kết hợp từ nấm, bông cải xanh và xốt nấm Truffle thơm béo sẽ tạo nên một hương vị khó quên cho những thực khách thích thanh</div>
                     <div className='temp'>

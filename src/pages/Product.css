@@ -17,4 +17,7 @@
     margin-left: 130px;
     border-bottom: 1px 1px;
 }
+.component{
+    display: block;
+}
 /* h1.mix {border-style: hidden hidden solid hidden;} */
