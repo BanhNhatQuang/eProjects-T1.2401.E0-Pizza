@@ -1,0 +1,20 @@
+.temp{
+    display: flex;
+    /* align-items: center; */
+}
+.mua-ngay{
+    width: 100px;
+    height: 50px;
+}
+.price{
+    font-weight: bold;
+    font-size: 22px;
+}
+.list{
+    display: flex;
+}
+.name{
+    margin-left: 130px;
+    border-bottom: 1px 1px;
+}
+/* h1.mix {border-style: hidden hidden solid hidden;} */
