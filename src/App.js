@@ -10,7 +10,7 @@ function App() {
         .then(res => res.json())
         .then(data => setProducts(data))
     }, [])
-    console.log("hello");
+    console.log("hello", products);
   return (
     <div className="container">
       <Header></Header>

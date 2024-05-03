@@ -1,0 +1,66 @@
+.temp{
+    display: flex;
+}
+.mua-ngay{
+    width: 100px;
+    height: 50px;
+    margin-left: 40px;
+    background-color: white;
+    border-radius:  10px;
+    color: green;
+    border-style: ridge;
+}
+.price{
+    font-weight: bold;
+    font-size: 22px;
+}
+.card2{
+    margin-left: 20px;
+}
+.des{
+    font-size: 13px;
+    font-weight: 100;
+}
+.pic{
+    width: 80%;
+    height: 25%;
+}
+.pic-cuoi{
+    width: 83%;
+}
+.card1{
+    margin-left: 120px;
+}
+.gia-chi-tu{
+    font-size: 13px;
+    font-weight: 100;
+}
+#cuoi{
+    margin-bottom: 30px;
+}
+#hinh8{
+    width: 76%;
+}
+#hinh9{
+    width: 86%;
+}
+#hinh10{
+    width: 94%;
+}
+#hinh12{
+    width: 66%;
+}
+#hinh14{
+    width: 86%;
+}
+#hinh15{
+    width: 69%;
+}
+#hinh18{
+    width: 230px;
+    height: 230px;
+}
+#cuoi1{
+    margin-bottom: 30px;
+    width: 250px;
+}
