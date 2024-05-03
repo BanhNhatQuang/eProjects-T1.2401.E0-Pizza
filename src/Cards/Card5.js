@@ -6,7 +6,7 @@ function Card5(props) {
         <div>
             <div>
             <div className='card2'>
-                    <img className='pic' src='http://thepizzacompany.vn/images/thumbs/000/0002211_tropical-sf-test_300.png'></img>
+                    <img id='PICTURE' className='pic' src='http://thepizzacompany.vn/images/thumbs/000/0002211_tropical-sf-test_300.png'></img>
                     <h2 id='cuoi'>Pizza Hải Sản Nhiệt Đới</h2>
                     <div className='des'>Tôm, nghêu, mực cua, dứa với sốt Thousand <div id='cuoi' className='des'>Island</div> </div>
                     <div className='temp'>

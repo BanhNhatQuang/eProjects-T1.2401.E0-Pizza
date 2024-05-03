@@ -41,27 +41,6 @@
 #hinh8{
     width: 76%;
 }
-#hinh8:hover{
-    transform: rotate(10deg);
-}
-#hinh9:hover{
-    transform: rotate(10deg);
-}
-#hinh10:hover{
-    transform: rotate(10deg);
-}
-#hinh12:hover{
-    transform: rotate(10deg);
-}
-#hinh14:hover{
-    transform: rotate(10deg);
-}
-#hinh15:hover{
-    transform: rotate(10deg);
-}
-#hinh16:hover{
-    transform: rotate(10deg);
-}
 #hinh9{
     width: 86%;
 }
@@ -85,6 +64,42 @@
     margin-bottom: 30px;
     width: 250px;
 }
+#BBQ{
+    width: 86%;
+}
+#Cay{
+    width: 90%;
+}
+#Cay2{
+    margin-top: 65px;
+}
+#Cay3{
+    margin-top: 50px;
+}
+#Han{
+    margin-top: 20px;
+}
 #PICTURE:hover{
     transform: rotate(10deg);
+}
+#BBQ:hover{
+    transform: rotate(10deg);        
+}
+#Cay:hover{
+    transform: rotate(10deg);        
+}
+#Cay2:hover{
+    transform: rotate(10deg);        
+}
+#Cay3:hover{
+    transform: rotate(10deg);        
+}
+#Han:hover{
+    transform: rotate(10deg);        
+}
+.card1{
+    margin-top: 30px;
+}
+.card2{
+    margin-top: 30px;
 }

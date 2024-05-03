@@ -41,27 +41,6 @@
 #hinh8{
     width: 76%;
 }
-#hinh8:hover{
-    transform: rotate(10deg);
-}
-#hinh9:hover{
-    transform: rotate(10deg);
-}
-#hinh10:hover{
-    transform: rotate(10deg);
-}
-#hinh12:hover{
-    transform: rotate(10deg);
-}
-#hinh14:hover{
-    transform: rotate(10deg);
-}
-#hinh15:hover{
-    transform: rotate(10deg);
-}
-#hinh16:hover{
-    transform: rotate(10deg);
-}
 #hinh9{
     width: 86%;
 }
@@ -81,10 +60,42 @@
     width: 230px;
     height: 230px;
 }
-#cuoi1{
-    margin-bottom: 30px;
-    width: 250px;
+.card1{
+    margin-top: 30px;
 }
-#PICTURE:hover{
-    transform: rotate(10deg);
+.card2{
+    margin-top: 30px;
+}
+#My1{
+    margin-top: 50px;
+    width: 90%;
+    height: 200px;
+    margin-bottom: 27px;
+}
+#My3{
+    width: 73%;
+}
+#My4{
+    width: 95%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#Nood1{
+    margin-top: 60px;
+}
+#My5{
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#My8{
+    width: 65%;
+    margin-bottom: -10px;
+}
+#My11{
+    width: 60%;
+    margin-bottom: 0px;
+}
+#Nood11{
+    margin-top: 78px;
 }
