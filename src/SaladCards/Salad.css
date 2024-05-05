@@ -14,7 +14,7 @@
     font-weight: bold;
     font-size: 22px;
 }
-.card2{
+/* .card2{
     margin-left: 20px;
 }
 .des{
@@ -82,41 +82,38 @@
 }
 #Nood1{
     margin-top: 60px;
-}
-#My5{
-    width: 85%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#My8{
-    width: 65%;
-    margin-bottom: -10px;
-}
-#My11{
-    width: 60%;
-    margin-bottom: 0px;
-}
-#Nood11{
-    margin-top: 78px;
-}
-#My1:hover{
-    transform: rotate(10deg);        
-}
-#My3:hover{
-    transform: rotate(10deg);        
-}
-#My4:hover{
-    transform: rotate(10deg);        
-}
-#My5:hover{
-    transform: rotate(10deg);        
-}
-#My8:hover{
-    transform: rotate(10deg);        
-}
-#My11:hover{
-    transform: rotate(10deg);        
-}
+} */
 #MyY:hover{
     transform: rotate(10deg);        
 }
+#MyY1:hover{
+    transform: rotate(10deg);
+}
+#MyY2:hover{
+    transform: rotate(10deg);
+}
+#MyY1{
+    /* width: 0%; */
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+#MyY2{
+    /* width: 0%; */
+    margin-top: 14.5%;
+    margin-bottom: 14%;
+}
+.container1{
+    margin-left: 10px;
+    width: 20%;
+    height: 50%;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    /* margin */
+}
+#first{
+    margin-left: 10%;
+    /* margin-bottom: 20px; */
+} 
+/* #second{ */
+    /* margin-bottom: 20px; */
+/* }  */

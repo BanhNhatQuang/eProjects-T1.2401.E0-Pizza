@@ -5,7 +5,7 @@ function MyY7(props) {
     return (
         <div>
             <div className='card2'>
-                <img className='pic' src='http://thepizzacompany.vn/images/thumbs/000/0002254_spicy-sausage-spaghetti_300.png'></img>
+                <img className='pic' id='MyY' src='http://thepizzacompany.vn/images/thumbs/000/0002254_spicy-sausage-spaghetti_300.png'></img>
                 <h2 id='cuoi'>Mỳ Ý Cay Xúc Xích</h2>
                 <div className='des' id='cuoi'>Mỳ Ý rán với xúc xích cay, thảo mộc, ngò gai và húng quế Ý</div>
                 {/* <div id='cuoi'>Thousand Island</div> */}
