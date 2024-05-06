@@ -1,10 +1,12 @@
 import React from 'react';
 import './KhaiVi.css';
+import { useNavigate } from 'react-router-dom';
 function GaBBQ2Mieng(props) {
+    const navigate = useNavigate();
     return (
         <div>
             <div className='card1'>
-                <img className='pic' id='BBQ' src='http://thepizzacompany.vn/images/thumbs/000/0003870_bbq-chicken-platter-2pcs_300.jpeg'></img>
+                <img className='pic' id='BBQ' onClick={()=>navigate("/detailKhaiVi/1")} src='http://thepizzacompany.vn/images/thumbs/000/0003870_bbq-chicken-platter-2pcs_300.jpeg'></img>
                 <h2 id='cuoi'>Gà Nướng BBQ (2 miếng)</h2>
                 <div className='des' id='cuoi'>Thịt gà mềm ngọt, thấm đẫm gia vị, da gà giòn rụm, màu vàng ươm bắt mắt</div>
                 {/* <div id='cuoi'>Thousand Island</div> */}
@@ -13,7 +15,7 @@ function GaBBQ2Mieng(props) {
                         <div className='gia-chi-tu'>Giá chỉ từ</div>
                         <div className='price'>99.000đ</div>
                     </div>
-                    <button className='mua-ngay'>Mua ngay</button>
+                    <button onClick={()=>navigate("/detailKhaiVi/1")} className='mua-ngay'>Mua ngay</button>
                 </div>
             </div>
         </div>
