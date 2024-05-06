@@ -1,0 +1,17 @@
+.ThemVaoGioHang{
+    margin-top: 45%;
+    background-color: green;
+    width: 100%;
+    height: 20%;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: -20px;
+}
+.ThemVaoGioHang:hover{
+    background-color: darkgreen;
+}
+.chu{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

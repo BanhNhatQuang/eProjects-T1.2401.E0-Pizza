@@ -1,4 +1,5 @@
 import React from 'react';
+import ThemVaoGioHang from '../Components/ThemVaoGioHang';
 
 function DetailKhaiVi3(props) {
     return (
@@ -25,7 +26,9 @@ function DetailKhaiVi3(props) {
                             <div className='dash'>___________________________________________________</div>
                             <br></br> */}
                 <h3 className='kich-thuoc'>Ghi Chú</h3>
-                <input type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
+                    <input className='GhiChu' type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
+                    {/* <GhiChu></GhiChu> */}
+                    <ThemVaoGioHang></ThemVaoGioHang>
             </div>
         </div>
     </div>
