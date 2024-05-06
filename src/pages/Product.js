@@ -69,7 +69,6 @@ function Product(props) {
                     <Card17></Card17>
                     <Card18></Card18>
                     <Card19></Card19>
-                    {/* <Card6></Card6> */}
                 </div>
             </div>
         </div>

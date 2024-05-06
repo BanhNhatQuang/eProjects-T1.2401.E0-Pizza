@@ -1,0 +1,54 @@
+.DetailBox{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    border: 1px solid black;
+    height: 550px;
+    border-radius: 30px;
+}
+.DetailBox1{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    border-radius: 30px;
+    text-align: center;
+}
+.DetailBox2{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 50%;
+    border-radius: 30px;
+    /* margin-left: 5%; */
+}
+.DetailPic{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 70%;
+}
+.DetailPrice{
+    color: red;
+    font-size: 40px;
+}
+.Box2{
+    margin-left: 10%;
+}
+.kich-thuoc{
+    color: limegreen;
+}
+.btn{
+    width: 30%;
+    height: 50px;
+    /* color: red; */
+    background-color: lightcoral;
+}
+.btn1{
+    width: 30%;
+    height: 50px;
+    background-color: none;
+    /* border: 1 solid transparent */
+}
+.dash{
+    font-weight: 100;
+}

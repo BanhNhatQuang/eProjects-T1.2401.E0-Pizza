@@ -1,12 +1,15 @@
 import React from 'react';
 import './Card.css';
+import { useNavigate } from 'react-router-dom';
 
 function Card10() {
+    const navigate = useNavigate();
+
     return (
         <div>
             <div>
             <div className='card2'>
-                    <img className='pic-cuoi' id='hinh10' src='http://thepizzacompany.vn/images/thumbs/000/0002223_ck-trio_300.png'></img>
+                    <img className='pic-cuoi' onClick={()=>navigate("/detail/10")} id='hinh10' src='http://thepizzacompany.vn/images/thumbs/000/0002223_ck-trio_300.png'></img>
                     <h2 id='cuoi'>Pizza Gà Nướng 3 Vị</h2>
                     <div className='des' id='cuoi'>Gà nướng, gà bơ tỏi và gà ướp sốt nấm</div>
                     <div className='temp'>
@@ -14,7 +17,7 @@ function Card10() {
                             <div className='hello'>Giá chỉ từ</div>
                             <div className='price'>149.000đ</div>
                         </div>
-                        <button className='mua-ngay'>Mua ngay</button>
+                        <button onClick={()=>navigate("/detail/10")} className='mua-ngay'>Mua ngay</button>
                     </div>
                 </div>
         </div>
