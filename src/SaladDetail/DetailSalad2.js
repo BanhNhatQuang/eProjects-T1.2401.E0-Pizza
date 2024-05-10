@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './DetailPizza.css'
+import './DetailSalad.css'
 import ThemVaoGioHang from '../Components/ThemVaoGioHang';
-function DetailCard1(props) {
+function DetailSalad2(props) {
     function handleClickBtn1(params) {
         setID(0)
         // console.log(id);
@@ -14,32 +14,31 @@ function DetailCard1(props) {
         setID(2)
         // console.log(id);
     }
-    const [id, setID] = useState(0)
-    // let id = 0;
-    // console.log(id);
+    const [id, setID] = useState(1)
     return (
-        <div>
+        // <div>
+            <div>
             {/* <h1>Hello</h1> */}
             <div className='DetailBox'>
                 <div className='DetailBox1'>
-                    <img className='DetailPic' src='http://thepizzacompany.vn/images/thumbs/000/0003102_seafood-peach-test_300.png'></img>
-                    <h2 className='DetailPrice'>169.000đ</h2>
+                    <img className='DetailPic' src='http://thepizzacompany.vn/images/thumbs/000/0002252_garden-salad_300.png'></img>
+                    <h2 className='DetailPrice'>79.000đ</h2>
                 </div>
                 <div className='DetailBox2'>
                     <div className='Box2'>
                         <div className='price'>___</div>
-                        <h2>Pizza Hải Sản Đào</h2>
-                        <div className='kich-thuoc'>Kích thước Nhỏ 6” - Đế Dày</div>
-                        <div>Tôm, Đào hoà quyện bùng nổ cùng sốt</div>
+                        <h2>Salad Trộn Dầu Giấm</h2>
+                        <div className='kich-thuoc'>Kích thước Vừa 9”</div>
+                        <div>Rau với sốt dầu giấm</div>
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Kích Thước</h3>
-                        <button onClick={handleClickBtn1} className={id == 0 ? 'btn' : 'btn1'}>Nhỏ 6"</button>
+                        {/* <button onClick={handleClickBtn1} className={id == 0 ? 'btn' : 'btn1'}>Nhỏ 6"</button> */}
                         <button onClick={handleClickBtn2} className={id == 1 ? 'btn' : 'btn1'}>Vừa 9"</button>
                         <button onClick={handleClickBtn3} className={id == 2 ? 'btn' : 'btn1'}>Lớn 12"</button>
-                        <div className='dash'>___________________________________________________</div>
-                        <h3 className='kich-thuoc'>Đế</h3>
-                        <input type="radio" name="status" checked></input>
-                        <label>Dày</label>
+                        {/* <div className='dash'>___________________________________________________</div> */}
+                        {/* <h3 className='kich-thuoc'>Đế</h3>
+                        <input type="radio" name="status" checked></input> */}
+                        {/* <label>Dày</label> */}
                         <div className='dash'>___________________________________________________</div>
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Ghi Chú</h3>
@@ -53,6 +52,8 @@ function DetailCard1(props) {
                 </div>
             </div>
         </div>
+        // </div>
     );
 }
-export default DetailCard1;
+
+export default DetailSalad2;

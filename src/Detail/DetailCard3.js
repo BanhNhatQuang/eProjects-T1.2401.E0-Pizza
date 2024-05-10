@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './DetailPizza.css'
+import ThemVaoGioHang from '../Components/ThemVaoGioHang';
 function DetailCard3(props) {
     function handleClickBtn1(params) {
         setID(0)
@@ -30,7 +31,7 @@ function DetailCard3(props) {
                         <h2>Pizza Hải Sản Cocktail</h2>
                         <div className='kich-thuoc'>Kích thước Nhỏ 6” - Đế Dày</div>
                         <div>Tôm, cua, giăm bông,... với sốt Thousand Island</div>
-                        <br></br>
+                        {/* <br></br>/ */}
                         <h3 className='kich-thuoc'>Kích Thước</h3>
                         <button onClick={handleClickBtn1} className={id==0 ? 'btn':'btn1'}>Nhỏ 6"</button>
                         <button onClick={handleClickBtn2} className={id==1 ? 'btn':'btn1'}>Vừa 9"</button>
@@ -40,9 +41,14 @@ function DetailCard3(props) {
                         <input type="radio" name="status" checked></input>
                         <label>Dày</label>
                         <div className='dash'>___________________________________________________</div>
-                        <br></br>
+                        {/* <br></br> */}
                         <h3 className='kich-thuoc'>Ghi Chú</h3>
                         <input type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
+                    {/* <ThemVaoGioHang></ThemVaoGioHang> */}
+                    <div className='last'>
+                            <ThemVaoGioHang></ThemVaoGioHang>
+                        </div>
+
                     </div>
                 </div>
             </div>

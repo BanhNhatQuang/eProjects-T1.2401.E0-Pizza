@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './DetailPizza.css'
+import ThemVaoGioHang from '../Components/ThemVaoGioHang';
 function DetailCard19(props) {
     function handleClickBtn1(params) {
         setID(0)
@@ -30,19 +31,22 @@ function DetailCard19(props) {
                         <h2>Pizza Rau Củ</h2>
                         <div className='kich-thuoc'>Kích thước Nhỏ 6” - Đế Dày</div>
                         <div>Hành, ớt chuông, nấm, dứa, cà chua</div>
-                        <br></br>
+                        {/* <br></br> */}
                         <h3 className='kich-thuoc'>Kích Thước</h3>
-                        <button onClick={handleClickBtn1} className={id==0 ? 'btn':'btn1'}>Nhỏ 6"</button>
-                        <button onClick={handleClickBtn2} className={id==1 ? 'btn':'btn1'}>Vừa 9"</button>
-                        <button onClick={handleClickBtn3} className={id==2 ? 'btn':'btn1'}>Lớn 12"</button>
+                        <button onClick={handleClickBtn1} className={id == 0 ? 'btn' : 'btn1'}>Nhỏ 6"</button>
+                        <button onClick={handleClickBtn2} className={id == 1 ? 'btn' : 'btn1'}>Vừa 9"</button>
+                        <button onClick={handleClickBtn3} className={id == 2 ? 'btn' : 'btn1'}>Lớn 12"</button>
                         <div className='dash'>___________________________________________________</div>
                         <h3 className='kich-thuoc'>Đế</h3>
                         <input type="radio" name="status" checked></input>
                         <label>Dày</label>
                         <div className='dash'>___________________________________________________</div>
-                        <br></br>
+                        {/* <br></br> */}
                         <h3 className='kich-thuoc'>Ghi Chú</h3>
                         <input type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
+                        <div className='last'>
+                            <ThemVaoGioHang></ThemVaoGioHang>
+                        </div>
                     </div>
                 </div>
             </div>
