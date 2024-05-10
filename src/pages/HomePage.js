@@ -340,7 +340,9 @@ function HomePage() {
                     </div>
                 </div>
             </div>
+            <h2>hahaha</h2>
         </div>
+        
     );
 }
 
