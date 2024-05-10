@@ -40,7 +40,7 @@ import DetailKhaiVi10 from './DetailKhaiVi/DetailKhaiVi10';
 import DetailKhaiVi11 from './DetailKhaiVi/DetailKhaiVi11';
 import DetailKhaiVi12 from './DetailKhaiVi/DetailKhaiVi12';
 import DetailSalad1 from './SaladDetail/DetailSalad1';
-import HomePage from './pages/HomePage';
+// import HomePage from './pages/HomePage';
 // import DetailCard2 from './Detail/DetailCard2'
 function App() {
   const [products, setProducts] = useState([])
@@ -84,7 +84,7 @@ function App() {
         <Route element={<DetailCard15 products={products} />} path='/detail/15'></Route>
         <Route element={<DetailCard16 products={products} />} path='/detail/16'></Route>
         <Route element={<DetailCard17 products={products} />} path='/detail/17'></Route>
-        <Route element={<DetailCard18 products={products} />} path='/detail/18'></Route>
+        {/* <Route element={<DetailCard18 products={products} />} path='/detail/18'></Route> */}
         <Route element={<DetailCard19 products={products} />} path='/detail/19'></Route>
         
         <Route element={<DetailKhaiVi1 products={products} />} path='/detailKhaiVi/1'></Route>
@@ -106,7 +106,7 @@ function App() {
         <Route element={<MyY></MyY>} path='/MyY'></Route>
         <Route element={<Salad></Salad>} path='/Salad'></Route>
         <Route element={<ThucUong></ThucUong>} path='/ThucUong'></Route>
-        <Route element={<HomePage></HomePage>} path='/HomePage'></Route>
+        {/* <Route element={<HomePage></HomePage>} path='/HomePage'></Route> */}
       </Routes>
     </div>
   );

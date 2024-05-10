@@ -5,7 +5,7 @@ function Salad3(props) {
     return (
         <div className='container1' id='sencond'>
             <div className='card2'>
-                <img className='pic' id='MyY' src='http://thepizzacompany.vn/images/thumbs/000/0002600_chicken-strip-salad_300.png'></img>
+                <img className='pic' id='MyY1' src='http://thepizzacompany.vn/images/thumbs/000/0002600_chicken-strip-salad_300.png'></img>
                 <h3 id='cuoi'>Salad Gà Giòn Không Xương</h3>
                 <div className='des' id='cuoi'>Salad Gà giòn với trứng cút, thịt xông khói, phô mai parmesan và sốt Thousand Island</div>
                 {/* <div id='cuoi'>Thousand Island</div> */}

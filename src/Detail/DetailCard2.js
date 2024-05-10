@@ -26,7 +26,7 @@ function DetailCard2() {
                             <h2>Pizza Hải Sản Pesto Xanh</h2>
                             <div className='kich-thuoc'>Kích thước Nhỏ 6” - Đế Dày</div>   
                             <div>Tôm, thanh cua, mực và bông cải xanh tươi ngon trên nền sốt Pesto Xanh</div>
-                            {/* <br></br> */}
+                            <br></br>
                             <h3 className='kich-thuoc'>Kích Thước</h3>
                             <button onClick={handleClickBtn1} className={id == 0 ? 'btn' : 'btn1'}>Nhỏ 6"</button>
                             <button onClick={handleClickBtn2} className={id == 1 ? 'btn' : 'btn1'}>Vừa 9"</button>
@@ -36,7 +36,7 @@ function DetailCard2() {
                             <input type="radio" name="status" checked></input>
                             <label>Dày</label>
                             <div className='dash'>___________________________________________________</div>
-                            {/* <br></br> */}
+                            <br></br>
                             <h3 className='kich-thuoc'>Ghi Chú</h3>
                             <input type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
                     {/* <ThemVaoGioHang></ThemVaoGioHang> */}

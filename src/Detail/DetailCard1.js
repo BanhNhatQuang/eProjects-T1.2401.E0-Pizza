@@ -33,9 +33,9 @@ function DetailCard1(props) {
                         <div>Tôm, Đào hoà quyện bùng nổ cùng sốt</div>
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Kích Thước</h3>
-                        <button onClick={handleClickBtn1} className={id == 0 ? 'btn' : 'btn1'}>Nhỏ 6"</button>
-                        <button onClick={handleClickBtn2} className={id == 1 ? 'btn' : 'btn1'}>Vừa 9"</button>
-                        <button onClick={handleClickBtn3} className={id == 2 ? 'btn' : 'btn1'}>Lớn 12"</button>
+                        <button onClick={handleClickBtn1} className={id==0 ? 'btn':'btn1'}>Nhỏ 6"</button>
+                        <button onClick={handleClickBtn2} className={id==1 ? 'btn':'btn1'}>Vừa 9"</button>
+                        <button onClick={handleClickBtn3} className={id==2 ? 'btn':'btn1'}>Lớn 12"</button>
                         <div className='dash'>___________________________________________________</div>
                         <h3 className='kich-thuoc'>Đế</h3>
                         <input type="radio" name="status" checked></input>
@@ -44,8 +44,8 @@ function DetailCard1(props) {
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Ghi Chú</h3>
                         <input type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
-                        {/* <ThemVaoGioHang></ThemVaoGioHang> */}
-                        <div className='last'>
+                    {/* <ThemVaoGioHang></ThemVaoGioHang> */}
+                    <div className='last'>
                             <ThemVaoGioHang></ThemVaoGioHang>
                         </div>
 

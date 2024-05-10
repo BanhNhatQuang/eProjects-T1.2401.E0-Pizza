@@ -7,7 +7,7 @@ function MyY4(props) {
             <div className='card2'>
                 <img className='pic' id='My4' src='http://thepizzacompany.vn/images/thumbs/000/0002253_spaghetti-spicy-seafood_300.png'></img>
                 <h2 id='cuoi'>Mỳ Ý Cay Hải Sản</h2>
-                <div className='des' id='cuoi'>Mỳ Ý rán với các loại hải sản tươi ngon cùng ớt và tỏi</div>
+                <div className='des' id='cuoi3'>Mỳ Ý rán với các loại hải sản tươi ngon cùng ớt và tỏi</div>
                 {/* <div id='cuoi'>Thousand Island</div> */}
                 <div className='temp'>
                     <div>

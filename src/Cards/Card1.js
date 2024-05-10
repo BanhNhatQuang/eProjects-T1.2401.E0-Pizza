@@ -9,7 +9,9 @@ function Card1(props) {
                     <img className='pic' id='PICTURE' onClick={()=>navigate("/detail/1")} src='http://thepizzacompany.vn/images/thumbs/000/0003102_seafood-peach-test_300.png'></img>
                     <h2 id='cuoi'>Pizza Hải Sản Đào</h2>
                     <div className='des'>Tôm, Đào hoà quyện bùng nổ cùng sốt</div>
-                    <div id='cuoi'>Thousand Island</div>
+                    <div className='des' id='cuoi'>Thousand Island</div>
+                    {/* <div> </div> */}
+                    {/* <br></br> */}
                     <div className='temp'>
                         <div>
                             <div className='gia-chi-tu'>Giá chỉ từ</div>

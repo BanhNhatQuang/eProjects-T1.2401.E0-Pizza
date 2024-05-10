@@ -1,4 +1,4 @@
-.temp{
+/* .temp{
     display: flex;
 }
 .mua-ngay{
@@ -13,7 +13,7 @@
 .price{
     font-weight: bold;
     font-size: 22px;
-}
+} */
 /* .card2{
     margin-left: 20px;
 }
@@ -92,16 +92,18 @@
 #MyY2:hover{
     transform: rotate(10deg);
 }
-#MyY1{
-    /* width: 0%; */
+/* #MyY1{
     margin-top: 15%;
     margin-bottom: 15%;
 }
 #MyY2{
-    /* width: 0%; */
     margin-top: 14.5%;
     margin-bottom: 14%;
 }
+#MyY{
+    margin-top: 14.5%;
+    margin-bottom: 14%;
+} */
 .container1{
     margin-left: 10px;
     width: 20%;
@@ -117,3 +119,6 @@
 /* #second{ */
     /* margin-bottom: 20px; */
 /* }  */
+#cuoi5{
+    margin-bottom: 45px;
+}

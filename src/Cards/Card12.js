@@ -10,7 +10,7 @@ function Card12(props) {
             <div>
             <div className='card2'>
                     <img className='pic' id='hinh12' onClick={()=>navigate("/detail/12")} src='http://thepizzacompany.vn/images/thumbs/000/0002218_sup-deluxe_300.png'></img>
-                    <h2 id='cuoi'>Pizza 5 Loại Thịt Đặc Biệt Và Rau Củ</h2>
+                    <h2 >Pizza 5 Loại Thịt Đặc <h2 id='cuoi'>Biệt Và Rau Củ</h2></h2>
                     <div className='des'>Xúc xích bò, giăm bông, thịt xông khói,... <div id='cuoi' className='des'>và cả thế giới rau phong phú</div></div>
                     <div className='temp'>
                         <div>

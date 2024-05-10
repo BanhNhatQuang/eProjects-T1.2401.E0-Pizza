@@ -1,10 +1,11 @@
 .DetailBox{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     border: 1px solid black;
-    height: 470px;
+    height: 600px;
     border-radius: 30px;
+    
 }
 .DetailBox1{
     background-color: white;
@@ -25,7 +26,7 @@
     margin-right: 10%;
     margin-top: 10%;
     width: 80%;
-    height: 50%;
+    height: 70%;
 }
 .DetailPrice{
     color: red;
@@ -52,11 +53,4 @@
 }
 .dash{
     font-weight: 100;
-}
-.last{
-    margin-top: -150px;
-}
-.NamePizza{
-    font-size: 30px;
-
 }

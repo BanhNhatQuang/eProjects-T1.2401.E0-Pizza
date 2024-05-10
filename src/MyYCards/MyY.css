@@ -1,4 +1,4 @@
-.temp{
+/* .temp{
     display: flex;
 }
 .mua-ngay{
@@ -65,8 +65,8 @@
 }
 .card2{
     margin-top: 30px;
-}
-#My1{
+} */
+/* #My1{
     margin-top: 50px;
     width: 90%;
     height: 200px;
@@ -98,7 +98,7 @@
 }
 #Nood11{
     margin-top: 78px;
-}
+} */
 #My1:hover{
     transform: rotate(10deg);        
 }
@@ -119,4 +119,7 @@
 }
 #MyY:hover{
     transform: rotate(10deg);        
+}
+#cuoi4{
+    margin-bottom: 73px;
 }

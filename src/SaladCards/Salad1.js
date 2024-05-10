@@ -8,7 +8,7 @@ function Salad1(props) {
         <div className='container1' id='first'>
             <div className='card2'>
                 <img className='pic' onClick={()=>navigate("/SaladDetail/1")} id='MyY1' src='http://thepizzacompany.vn/images/thumbs/000/0002252_garden-salad_300.png'></img>
-                <h3 id='cuoi'>Salad Trộn Dầu Giấm</h3>
+                <h3 id='cuoi5'>Salad Trộn Dầu Giấm</h3>
                 <div className='des' id='cuoi'>Rau với sốt dầu giấm</div>
                 {/* <div className='des' id=''></div> */}
                 <br></br>
