@@ -1,5 +1,5 @@
 import React from 'react';
-import MyY1 from '../MyYCards/MyY1';
+// import MyY1 from '../MyYCards/MyY1';
 import MyY2 from '../MyYCards/MyY2';
 import MyY3 from '../MyYCards/MyY3';
 import MyY4 from '../MyYCards/MyY4';
@@ -15,7 +15,7 @@ function MyY(props) {
     return (
         <div>
             <div className='list'>
-                <MyY1></MyY1>
+                <MyY10></MyY10>
                 <MyY2></MyY2>
                 <MyY3></MyY3>
                 <MyY4></MyY4>
@@ -28,8 +28,7 @@ function MyY(props) {
             </div>
             <div className='list'>
                 <MyY9></MyY9>
-                <MyY10></MyY10>
-                <MyY11></MyY11>
+                {/* <MyY10></MyY10> */}
             </div>
 
         </div>

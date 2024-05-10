@@ -10,7 +10,7 @@ function Card7(props) {
             <div>
             <div className='card1'>
                     <img className='pic' onClick={()=>navigate("/detail/7")} id='hinh8' src='http://thepizzacompany.vn/images/thumbs/000/0003536_aloha_300.png'></img>
-                    <h2 id='cuoi'>Pizza Aloha</h2>
+                    <h2 id='cuoi1'>Pizza Aloha</h2>
                     <div id='cuoi' className='des'>Thịt nguội, xúc xích tiêu cay và dứa hòa quyện với sốt Thousand Island</div>
                     <div className='temp'>
                         <div>

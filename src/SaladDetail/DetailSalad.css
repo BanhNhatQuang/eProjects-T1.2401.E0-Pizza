@@ -1,10 +1,11 @@
 .DetailBox{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     border: 1px solid black;
-    height: 550px;
+    height: 600px;
     border-radius: 30px;
+    
 }
 .DetailBox1{
     background-color: white;
@@ -38,7 +39,7 @@
 .kich-thuoc{
     color: limegreen;
 }
-.btn0{
+.btn{
     width: 30%;
     height: 50px;
     /* color: red; */
@@ -52,11 +53,4 @@
 }
 .dash{
     font-weight: 100;
-}
-.last{
-    margin-top: -150px;
-}
-.NamePizza{
-    font-size: 30px;
-
 }

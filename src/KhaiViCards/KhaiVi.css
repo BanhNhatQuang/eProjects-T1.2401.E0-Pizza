@@ -1,4 +1,4 @@
-.temp{
+/* .temp{
     display: flex;
 }
 .mua-ngay{
@@ -20,15 +20,15 @@
 .des{
     font-size: 13px;
     font-weight: 100;
-}
-.pic{
+} */
+/* .pic{
     width: 80%;
     height: 25%;
 }
 .pic-cuoi{
     width: 83%;
-}
-.card1{
+} */
+/* .card1{
     margin-left: 120px;
 }
 .gia-chi-tu{
@@ -63,22 +63,22 @@
 #cuoi1{
     margin-bottom: 30px;
     width: 250px;
-}
-#BBQ{
+} */
+/* #BBQ{
     width: 86%;
-}
-#Cay{
+} */
+/* #Cay{
     width: 90%;
-}
-#Cay2{
+} */
+/* #Cay2{
     margin-top: 65px;
 }
 #Cay3{
     margin-top: 50px;
-}
-#Han{
+} */
+/* #Han{
     margin-top: 20px;
-}
+} */
 #PICTURE:hover{
     transform: rotate(10deg);
 }
@@ -102,4 +102,9 @@
 }
 .card2{
     margin-top: 30px;
+}
+.Ga{
+    width: 192px;
+    height: 185px;
+    object-fit: scale-down;
 }

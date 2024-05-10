@@ -10,8 +10,8 @@ function Card16(props) {
             <div>
             <div className='card2'>
                     <img className='pic-cuoi' onClick={()=>navigate("/detail/16")} id='hinh16' src='http://thepizzacompany.vn/images/thumbs/000/0002224_hawaii_300.png'></img>
-                    <h2 id='cuoi'>Pizza Hawaiian</h2>
-                    <div className='des' id='cuoi'>Giăm bông, thịt muối và dứa</div>
+                    <h2 id='cuoi1'>Pizza Hawaiian</h2>
+                    <div className='des' id='cuoi3'>Giăm bông, thịt muối và dứa</div>
                     <div className='temp'>
                         <div>
                             <div className='hello'>Giá chỉ từ</div>

@@ -6,7 +6,7 @@ function Salad2(props) {
         <div className='container1' id='sencond'>
             <div className='card2'>
                 <img className='pic' id='MyY2' src='http://thepizzacompany.vn/images/thumbs/000/0002250_signature-salad_300.png'></img>
-                <h3 id='cuoi'>Salad Đặc Sắc</h3>
+                <h3 id='cuoi1'>Salad Đặc Sắc</h3>
                 <div className='des' id='cuoi'>Salad rau và trái cây tươi dùng kèm xốt kem đặc biệt của The Pizza Company</div>
                 {/* <div id='cuoi'>Thousand Island</div> */}
                 <div className='temp'>

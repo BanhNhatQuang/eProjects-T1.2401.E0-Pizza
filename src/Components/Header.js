@@ -18,7 +18,7 @@ function Header(props) {
                 <div className='location'>
                     <input placeholder='Nhap vi tri cua ban'></input>
                 </div>
-                <div>hello</div>
+                {/* <div>hello</div> */}
             </div>
             <div className='App'>
             </div>

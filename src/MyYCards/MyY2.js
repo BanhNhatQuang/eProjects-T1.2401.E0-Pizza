@@ -6,7 +6,7 @@ function MyY2(props) {
         <div>
             <div className='card2'>
                 <img className='pic' id='MyY' src='http://thepizzacompany.vn/images/thumbs/000/0003667_ham-mushroom-w-cream-truffle-sause_300.png'></img>
-                <h2 id='cuoi'>Mỳ Ý Truffle</h2>
+                <h2 id='cuoi1'>Mỳ Ý Truffle</h2>
                 <div className='des' id='cuoi'>Nấm Truffle đen với hương thơm ngất ngây, phủ trên lớp sốt kem nấm beo béo đậm đà cùng thịt giăm bông mềm mại.</div>
                 {/* <div id='cuoi'>Thousand Island</div> */}
                 <div className='temp'>
