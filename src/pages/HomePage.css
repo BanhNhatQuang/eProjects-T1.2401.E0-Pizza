@@ -8,10 +8,12 @@
   
   .card-text {
     font-size: 0.9em;
+    
   }
   
   .card-title {
     font-weight: bolder;
+    text-decoration: none;
   }
   .card-title:hover {
     color: #00a859; 

@@ -39,6 +39,7 @@ import DetailKhaiVi9 from './DetailKhaiVi/DetailKhaiVi9';
 import DetailKhaiVi10 from './DetailKhaiVi/DetailKhaiVi10';
 import DetailKhaiVi11 from './DetailKhaiVi/DetailKhaiVi11';
 import DetailKhaiVi12 from './DetailKhaiVi/DetailKhaiVi12';
+import HomePage from './pages/HomePage';
 // import DetailCard2 from './Detail/DetailCard2'
 function App() {
   const [products, setProducts] = useState([])
@@ -102,6 +103,7 @@ function App() {
         <Route element={<MyY></MyY>} path='/MyY'></Route>
         <Route element={<Salad></Salad>} path='/Salad'></Route>
         <Route element={<ThucUong></ThucUong>} path='/ThucUong'></Route>
+        <Route element={<HomePage></HomePage>} path='/'></Route>
       </Routes>
     </div>
   );
