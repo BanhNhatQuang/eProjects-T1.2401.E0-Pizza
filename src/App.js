@@ -41,6 +41,7 @@ import DetailKhaiVi11 from './DetailKhaiVi/DetailKhaiVi11';
 import DetailKhaiVi12 from './DetailKhaiVi/DetailKhaiVi12';
 import DetailSalad1 from './SaladDetail/DetailSalad1';
 // import HomePage from './pages/HomePage';
+import HomePage from './pages/HomePage';
 // import DetailCard2 from './Detail/DetailCard2'
 function App() {
   const [products, setProducts] = useState([])
