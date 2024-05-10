@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './HomePage.css';
 import { Route, Routes, Router, Link } from 'react-router-dom';
 function HomePage() {
