@@ -11,7 +11,7 @@ function Card10() {
             <div className='card2'>
                     <img className='pic-cuoi' onClick={()=>navigate("/detail/10")} id='hinh10' src='http://thepizzacompany.vn/images/thumbs/000/0002223_ck-trio_300.png'></img>
                     <h2 id='cuoi'>Pizza Gà Nướng 3 Vị</h2>
-                    <div className='des' id='cuoi'>Gà nướng, gà bơ tỏi và gà ướp sốt nấm</div>
+                    <div className='des' id='cuoi2'>Gà nướng, gà bơ tỏi và gà ướp sốt nấm</div>
                     <div className='temp'>
                         <div>
                             <div className='hello'>Giá chỉ từ</div>

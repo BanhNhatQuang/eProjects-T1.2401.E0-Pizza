@@ -6,7 +6,7 @@ function MyY3(props) {
         <div>
             <div className='card2'>
                 <img className='pic' id='My3' src='http://thepizzacompany.vn/images/thumbs/000/0003669_pasta-seafood-w-pesto-sauce_300.png'></img>
-                <h2 id='cuoi'>Mỳ Ý Pesto</h2>
+                <h2 id='cuoi1'>Mỳ Ý Pesto</h2>
                 <div className='des' id='cuoi'>Các loại nguyên liệu hải sản hảo hạng: Tôm, mực hoà quyện trên nền sốt Pesto xanh đậm vị, thơm hương đặc trưng từ lá húng tây </div>
                 {/* <div id='cuoi'>Thousand Island</div> */}
                 <div className='temp'>

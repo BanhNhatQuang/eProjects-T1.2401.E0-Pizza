@@ -67,7 +67,7 @@ function Product(props) {
                 <h1 className='name'>Pizza Chay</h1>
                 <div className='list'>
                     <Card17></Card17>
-                    <Card18></Card18>
+                    {/* <Card18></Card18> */}
                     <Card19></Card19>
                 </div>
             </div>
