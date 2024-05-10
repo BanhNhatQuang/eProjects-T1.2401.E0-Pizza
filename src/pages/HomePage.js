@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './HomePage.css';
 import { Route, Routes, Router, Link } from 'react-router-dom';
-function App() {
+function HomePage() {
   return (
     <div className='container'>
       <Routes>
@@ -313,4 +313,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;
