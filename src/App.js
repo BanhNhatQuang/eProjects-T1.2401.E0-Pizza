@@ -40,8 +40,14 @@ import DetailKhaiVi10 from './DetailKhaiVi/DetailKhaiVi10';
 import DetailKhaiVi11 from './DetailKhaiVi/DetailKhaiVi11';
 import DetailKhaiVi12 from './DetailKhaiVi/DetailKhaiVi12';
 import DetailSalad1 from './SaladDetail/DetailSalad1';
-// import HomePage from './pages/HomePage';
 import HomePage from './pages/HomePage';
+// import HomePage from './pages/HomePage';
+import Footer from './Components/Footer';
+import DacBiet from './Cards/DacBiet';
+import TruyenThong from './Cards/TruyenThong';
+import HaiSan from './Cards/HaiSan';
+import ThapCamCaoCap from './Cards/ThapCamCaoCap';
+import Chay from './Cards/Chay';
 // import DetailCard2 from './Detail/DetailCard2'
 function App() {
   const [products, setProducts] = useState([])
@@ -104,11 +110,17 @@ function App() {
         <Route element={<DetailSalad1 products={products} />} path='/SaladDetail/1'></Route>
 
         <Route element={<Khaivi setKhaiVi={setKhaiVi} KhaiVi={KhaiVi}></Khaivi>} path='/Khaivi'></Route>
+        <Route element={<DacBiet></DacBiet>} path='/DacBiet'></Route>
+        <Route element={<TruyenThong></TruyenThong>} path='/TruyenThong'></Route>
+        <Route element={<HaiSan></HaiSan>} path='/HaiSan'></Route>
+        <Route element={<ThapCamCaoCap></ThapCamCaoCap>} path='/ThapCamCaoCap'></Route>
+        <Route element={<Chay></Chay>} path='/Chay'></Route>
         <Route element={<MyY></MyY>} path='/MyY'></Route>
         <Route element={<Salad></Salad>} path='/Salad'></Route>
         <Route element={<ThucUong></ThucUong>} path='/ThucUong'></Route>
-        {/* <Route element={<HomePage></HomePage>} path='/HomePage'></Route> */}
+        <Route element={<HomePage></HomePage>} path='/'></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

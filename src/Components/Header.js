@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
+import { useNavigate } from 'react-router-dom';
 function Header(props) {
+    const navigate = useNavigate();
     return (
         <div className='div-header'>
             <div className='header'>
@@ -18,9 +20,26 @@ function Header(props) {
                 <div className='location'>
                     <input placeholder='Nhap vi tri cua ban'></input>
                 </div>
-                {/* <div>hello</div> */}
             </div>
             <div className='App'>
+            </div>
+            <div className='nav'>
+                {/* <button onClick={() => navigate("/Product")} className='Pizza'>Pizza</button> */}
+                <button onClick={() => navigate("/KhaiVi")} className='Starter'>Starter</button>
+                <button onClick={() => navigate("/ThucUong")} className='Drinks'>Drinks</button>
+                <button onClick={() => navigate("/Salad")} className='Salad'>Salad</button>
+                <div class="dropdown">
+                    <button onClick={() => navigate("/Product")} className="Pizza">Pizza
+                        {/* <i class="fa fa-caret-down"></i> */}
+                    </button>
+                    <div class="dropdown-content">
+                        <button onClick={()=>navigate("/DacBiet")}>Đặc Biệt</button>
+                        <button onClick={()=>navigate("/HaiSan")}>Hải Sản Cao Cấp</button>
+                        <button onClick={()=>navigate("/ThapCamCaoCap")}>Thập Cẩm Cao Cấp</button>
+                        <button onClick={()=>navigate("/TruyenThong")}>Truyền Thống</button>
+                        <button onClick={()=>navigate("/Chay")}>Pizza Chay</button>
+                    </div>
+                </div>
             </div>
         </div>
     );

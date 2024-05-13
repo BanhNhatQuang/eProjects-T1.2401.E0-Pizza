@@ -36,11 +36,11 @@ function DetailCard13(props) {
                         <button onClick={handleClickBtn1} className={id==0 ? 'btn':'btn1'}>Nhỏ 6"</button>
                         <button onClick={handleClickBtn2} className={id==1 ? 'btn':'btn1'}>Vừa 9"</button>
                         <button onClick={handleClickBtn3} className={id==2 ? 'btn':'btn1'}>Lớn 12"</button>
-                        <div className='dash'>___________________________________________________</div>
+                        <div className='dash'>_____________________________________________</div>
                         <h3 className='kich-thuoc'>Đế</h3>
                         <input type="radio" name="status" checked></input>
                         <label>Dày</label>
-                        <div className='dash'>___________________________________________________</div>
+                        <div className='dash'>_____________________________________________</div>
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Ghi Chú</h3>
                         <input type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
