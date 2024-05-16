@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css'
 function Footer(props) {
     return (
-        <div>
+        <div className='footer'>
             <div className='FooterContainer'>
                 <div className='FirstBar'>
                     <img className='FooterLogo' src='https://th.bing.com/th?q=Logo+De+Pizza&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=2&pid=InlineBlock&mkt=en-WW&cc=VN&setlang=en&adlt=moderate&t=1&mw=247.png'></img>

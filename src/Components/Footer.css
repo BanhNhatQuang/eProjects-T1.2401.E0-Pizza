@@ -1,11 +1,12 @@
+.footer{
+    display: block;
+}
 .FooterContainer{
-    margin-top: 50px;
+    margin-top: 40px;
     background-color: aquamarine;
-    margin-left: 5%;
-    margin-right: 5%;
     height: 200px;
     display: flex;
-    border-radius: 30px;
+    /* padding: 1rem */
 }
 .FirstBar{
     width: 30%;

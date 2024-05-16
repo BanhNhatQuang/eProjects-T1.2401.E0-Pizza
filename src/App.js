@@ -25,7 +25,7 @@ import DetailCard14 from './Detail/DetailCard14';
 import DetailCard15 from './Detail/DetailCard15';
 import DetailCard16 from './Detail/DetailCard16';
 import DetailCard17 from './Detail/DetailCard17';
-import DetailCard18 from './Detail/DetailCard18';
+// import DetailCard18 from './Detail/DetailCard18';
 import DetailCard19 from './Detail/DetailCard19';
 import DetailKhaiVi1 from './DetailKhaiVi/DetailKhaiVi1';
 import DetailKhaiVi2 from './DetailKhaiVi/DetailKhaiVi2';
@@ -48,10 +48,14 @@ import TruyenThong from './Cards/TruyenThong';
 import HaiSan from './Cards/HaiSan';
 import ThapCamCaoCap from './Cards/ThapCamCaoCap';
 import Chay from './Cards/Chay';
+import LoginPopup from './Components/LoginPopup';
 // import DetailCard2 from './Detail/DetailCard2'
 function App() {
   const [products, setProducts] = useState([])
   const [KhaiVi, setKhaiVi] = useState([])
+  // const [acc, setAcc] = useState("1")
+  // let acc = 1;
+  // console.log("acc là:", acc);
   useEffect(() => {
     fetch("/data/khai-vi.json")
       .then(res => res.json())
@@ -62,9 +66,13 @@ function App() {
       .then(res => res.json())
       .then(data => setProducts(data))
   }, [])
-  console.log("hello", products);
+  // console.log("hello", products);
   return (
-    <div className="container">
+    <div className="">
+      <Routes>
+        <Route element={<Header></Header>}></Route>
+        <Route element={<LoginPopup></LoginPopup>}></Route>
+      </Routes>
       <Header></Header>
       <Routes>
         {/* <Route element={<App setProducts={setProducts} products={products}></App>} path='/'></Route> */}
@@ -109,7 +117,9 @@ function App() {
         {/* </Route> */}
         <Route element={<DetailSalad1 products={products} />} path='/SaladDetail/1'></Route>
 
+
         <Route element={<Khaivi setKhaiVi={setKhaiVi} KhaiVi={KhaiVi}></Khaivi>} path='/Khaivi'></Route>
+        <Route element={<LoginPopup></LoginPopup>} path='/Login'></Route>
         <Route element={<DacBiet></DacBiet>} path='/DacBiet'></Route>
         <Route element={<TruyenThong></TruyenThong>} path='/TruyenThong'></Route>
         <Route element={<HaiSan></HaiSan>} path='/HaiSan'></Route>

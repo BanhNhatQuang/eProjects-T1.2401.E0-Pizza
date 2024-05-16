@@ -16,7 +16,7 @@
 .Delivery {
     border-radius: 30px;
     width: 200px;
-    background-color: red;
+    background-color: rgb(0, 255, 191);
 }
 
 .containerDelivery {
@@ -30,8 +30,10 @@
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    /* height: 100px; */
+    margin-left: 40%;
+    object-fit: scale-down;
 }
 
 .nav {
@@ -160,3 +162,10 @@
 /* .DacBiet{
     font-size: 20px;
 } */
+.HeaderContainer{
+    display: block;
+}
+.login{
+    margin-left: 5%;
+    color: red;
+}
