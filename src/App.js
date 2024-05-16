@@ -107,7 +107,7 @@ function App() {
         <Route element={<MyY></MyY>} path='/MyY'></Route>
         <Route element={<Salad></Salad>} path='/Salad'></Route>
         <Route element={<ThucUong></ThucUong>} path='/ThucUong'></Route>
-        {/* <Route element={<HomePage></HomePage>} path='/HomePage'></Route> */}
+        <Route element={<HomePage></HomePage>} path='/HomePage'></Route>
       </Routes>
     </div>
   );
