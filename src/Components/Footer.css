@@ -1,0 +1,45 @@
+.footer{
+    display: block;
+}
+.FooterContainer{
+    margin-top: 40px;
+    background-color: aquamarine;
+    height: 200px;
+    display: flex;
+    /* padding: 1rem */
+}
+.FirstBar{
+    width: 30%;
+    margin-left: 5%;
+    /* border: 1px solid red */
+}
+.SecondBar{
+    /* border: 1px solid red; */
+    width: 30%;
+}
+.LastBar{
+    /* border: 1px solid red; */
+    margin-right: 5%;
+    width: 30%;
+}
+.FooterLogo{
+    margin-top: 5%;
+    margin-left: 25%;
+    height: 150px;
+    width: 150px;
+    object-fit: scale-down;
+    /* text-align: center; */
+}
+.Phone{
+    font-weight: 700;
+    margin-left: 25%;
+    font-size: 28px;
+}
+.FirstHalf{
+    margin-top: 5%;
+    font-weight: 700;
+}
+.map{
+    margin-left: 15%;
+    margin-top: 20px;
+}
