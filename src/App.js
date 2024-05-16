@@ -41,7 +41,6 @@ import DetailKhaiVi11 from './DetailKhaiVi/DetailKhaiVi11';
 import DetailKhaiVi12 from './DetailKhaiVi/DetailKhaiVi12';
 import DetailSalad1 from './SaladDetail/DetailSalad1';
 import HomePage from './pages/HomePage';
-// import HomePage from './pages/HomePage';
 import Footer from './Components/Footer';
 import DacBiet from './Cards/DacBiet';
 import TruyenThong from './Cards/TruyenThong';
@@ -128,7 +127,7 @@ function App() {
         <Route element={<MyY></MyY>} path='/MyY'></Route>
         <Route element={<Salad></Salad>} path='/Salad'></Route>
         <Route element={<ThucUong></ThucUong>} path='/ThucUong'></Route>
-        <Route element={<HomePage></HomePage>} path='/'></Route>
+        <Route element={<HomePage></HomePage>} path='/HomePage'></Route>
       </Routes>
       <Footer></Footer>
     </div>
