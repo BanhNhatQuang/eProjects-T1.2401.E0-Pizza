@@ -10,7 +10,9 @@ function LoginPopup({ setShowLogin}) {
     const [isActive, setIsActive] = useState(false);
     const [admin, setAdmin] = useState([]);
     const [account, setAccount] = useState();
+    const [SignIn, setSignIn] = useState();
     const [errors, setErrors] = useState({nameError:"",passwordError:""});
+    const [error, setError] = useState({nameError:"",passwordError:"", emailError:""});
     // const [acc, setAcc] = useState(false)
     const navigate = useNavigate();
     let acc = 0;
@@ -25,15 +27,16 @@ function LoginPopup({ setShowLogin}) {
         handleValidate(name, value)
         setAccount({ ...account, [name]: value });
         // console.log(account);
+    }function handleChangeInput(e) {
+        let {name, value} = e.target
+        handleValidateSignIn(name, value)
+        setSignIn({ ...SignIn, [name]: value });
+        // console.log(account);
     }
     function handleValidate(name, value) {
-        // console.log(name, value);
         if (name == "name") {
             if (value == "") {
                 errors.nameError = "Email is required";
-            // } else if (value.length < 3 || value.length > 15) {
-            //     errors.nameError =
-            //         "Name must be between [3-15] characters";
             }else {
                 delete errors.nameError;
             }
@@ -41,11 +44,31 @@ function LoginPopup({ setShowLogin}) {
         if (name == "password") {
             if (value == "") {
                 errors.passwordError = "Password is required";
-            // } else if (value.length < 3 || value.length > 15) {
-            //     errors.passwordError =
-            //         "Name must be between [3-15] characters";
             }else {
                 delete errors.passwordError;
+            } 
+        }
+    }
+    function handleValidateSignIn(name, value) {
+        if (name == "ten") {
+            if (value == "") {
+                error.nameError = "Name is required";
+            }else {
+                delete error.nameError;
+            }
+        }
+        if (name == "password1") {
+            if (value == "") {
+                error.passwordError = "Password is required";
+            }else {
+                delete error.passwordError;
+            } 
+        }
+        if (name == "email1") {
+            if (value == "") {
+                error.emailError = "Email is required";
+            }else {
+                delete error.emailError;
             } 
         }
     }
@@ -53,8 +76,6 @@ function LoginPopup({ setShowLogin}) {
         e.preventDefault();
         // console.log(account);
         if(Object.keys(errors).length == 0){
-            // console.log(account);
-            // let [index ,result] = admin.filter(item => item.name(value) == account.name)
             if (account.name == "demo1@gmail.com") {
                 if (account.password == "123456") {
                     acc = 2
@@ -80,75 +101,24 @@ function LoginPopup({ setShowLogin}) {
             if (acc != 2){
                 if (acc !=3){
                     if (acc != 4) {
-                        console.log("unfindable account");
+                        alert("unfindable account");
                     }
                 }
             }
-            // console.log("acc:", acc);
-            // if(acc!=2 or acc!= 3 or acc !=4){
-            //     alert("unfindable account")
-            // }
-            // if (result == ""){
-            //     alert("unfindable account")
-            // }else{
-            //     if (account.password == ) {
-                    
-            //     }
-            // }
-            // alert("Welcome back")
         }else{
             alert("All field is required")
         }
     }
-    // function handleChangeInput(e) {
-    //     let { name, value } = e.target;
-    //     if (name == "age") {
-    //         value = +value;
-    //     }
-    //     if (name == "gender") {
-    //         value = (value == "true");
-    //     }
-    //     handleValidate(name, value)
-    //     setEmp({ ...emp, [name]: value });
-
-    // }
-    // function handleValidate1(name, value) {
-    //     console.log(name, value);
-    //     if (name == "name") {
-    //         if (value == "") {
-    //             errors.nameError = "Name is required";
-    //         } else if (value.length < 3 || value.length > 15) {
-    //             errors.nameError =
-    //                 "Name must be between [3-15] characters";
-    //         }else {
-    //             delete errors.nameError;
-    //         }  
-    //     }
-    //     if (name == "age") {
-    //         if (value == "") {
-    //             errors.ageError = "Age is required";
-    //         } else if (value <0 || value > 100) {
-    //             errors.ageError =
-    //                 "Age must be between [0-100] years old";
-    //         }else {
-    //             delete errors.ageError;
-    //         }  
-    //     }
-    // }
-    // function handleSubmi1(e) {
-    //     e.preventDefault();
-    //     if(Object.keys(errors).length == 0){
-    //         let dataSubmit = {
-    //             ...emp,
-    //             id: uuidv4()
-    //         }
-    //         setEmployes(pre => [...pre, dataSubmit]);
-    //         navigate("/");
-    //     }else{
-    //         alert("All field is required")
-    //     }
-        
-    // }
+    function handleSubmit1(e) {
+        e.preventDefault();
+        // console.log(Object.keys(error).length);
+        if(Object.keys(error).length == 0){
+            navigate("/")
+            alert("Welcome")
+        }else{
+            alert("All field is required")
+        }
+    }
     return (
         <div className='login-popup'>
             <div class={`login-popup-container container ${isActive ? 'active' : ''}`} id="container">
@@ -166,13 +136,10 @@ function LoginPopup({ setShowLogin}) {
                             <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                         </div>
                         <span>or use your email for registeration</span>
-                        <input required name='ten' type="text" placeholder="Name" />
-                        <input required type="email" placeholder="Email" />
-                        <input required type="password" placeholder="Password" />
-                        <button onClick={()=>{
-                            navigate("/")
-                            alert("Welcome")
-                        }}>Sign Up</button>
+                        <input onChange={handleChangeInput} name='ten' type="text" placeholder="Name" />
+                        <input onChange={handleChangeInput} name='email1' type="email" placeholder="Email" />
+                        <input onChange={handleChangeInput} name='password1' type="password" placeholder="Password" />
+                        <button onClick={handleSubmit1}>Sign Up</button>
                     </form>
                 </div>
                 <div class="form-container sign-in">

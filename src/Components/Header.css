@@ -29,9 +29,9 @@
     margin-left: 20px;
 }
 
-.logo {
+.logo1 {
     width: 50px;
-    /* height: 100px; */
+    height: 100%;
     margin-left: 40%;
     object-fit: scale-down;
 }
