@@ -6,7 +6,7 @@ function Drink9(props) {
         <div className='container1' id='first'>
             <div className='card2'>
                 <img className='pic' id='MyY2' src='http://thepizzacompany.vn/images/thumbs/000/0002573_pepsi-lime-can_300.png'></img>
-                <h3 id='cuoi'>Black Canned Lime Pepsi</h3>
+                <h3 id='cuoi'>Black Lime Pepsi</h3>
                 <div className='des' id='cuoi'></div>
                 {/* <div id='cuoi'>Thousand Island</div> */}
                 <div className='temp'>
