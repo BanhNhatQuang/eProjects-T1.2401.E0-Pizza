@@ -6,15 +6,15 @@ function Drink4(props) {
         <div className='container1' id='sencond'>
             <div className='card2'>
                 <img className='pic' id='MyY2' src='http://thepizzacompany.vn/images/thumbs/000/0002439_aquafina_300.png'></img>
-                <h3 id='cuoi'>Aquafina Chai</h3>
+                <h3 id='cuoi'>Bottle of Aquafina</h3>
                 <div className='des' id='cuoi'></div>
                 {/* <div id='cuoi'>Thousand Island</div> */}
                 <div className='temp'>
-                    <div>
-                        <div className='gia-chi-tu'>Giá chỉ từ</div>
+                <div>
+                        <div className='gia-chi-tu'>Only</div>
                         <div className='price'>29.000đ</div>
                     </div>
-                    <button className='mua-ngay'>Mua ngay</button>
+                    <button className='mua-ngay'>Buy Now</button>
                 </div>
             </div>
         </div>
