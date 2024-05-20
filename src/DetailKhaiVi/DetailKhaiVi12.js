@@ -11,9 +11,9 @@ function DetailKhaiVi12(props) {
             <div className='DetailBox2'>
                 <div className='Box2'>
                     <div className='price'>___</div>
-                    <h2>Gà Giòn Xốt Tương Tỏi Hàn Quốc (9 miếng)</h2>
+                    <h2>Crispy Chicken with Garlic Sauce (9 pieces)</h2>
                     {/* <div className='kich-thuoc'>Kích thước Nhỏ 6” - Đế Dày</div> */}
-                    <div>Công thức đặc biệt pha chút vị the nhè nhẹ và mùi thơm của gừng, tỏi mang đến cảm giác mới lạ khi thưởng thức.</div>
+                    <div>Special formula mixed with a light taste and aroma of ginger and garlic.</div>
                     {/* <br></br> */}
                     {/* <h3 className='kich-thuoc'>Kích Thước</h3>
                         <button onClick={handleClickBtn1} className={id == 0 ? 'btn' : 'btn1'}>Nhỏ 6"</button>
@@ -25,8 +25,8 @@ function DetailKhaiVi12(props) {
                         <label>Dày</label>
                         <div className='dash'>___________________________________________________</div>
                         <br></br> */}
-                  <h3 className='kich-thuoc'>Ghi Chú</h3>
-                    <input className='GhiChu' type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
+                  <h3 className='kich-thuoc'>Note</h3>
+                    <input className='GhiChu' type='text' placeholder='Enter your note here'></input>
                     {/* <GhiChu></GhiChu> */}
                     <ThemVaoGioHang></ThemVaoGioHang>
                 </div>

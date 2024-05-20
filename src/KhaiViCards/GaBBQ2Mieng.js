@@ -7,15 +7,15 @@ function GaBBQ2Mieng(props) {
         <div>
             <div className='card1'>
                 <img className='pic' id='BBQ' onClick={()=>navigate("/detailKhaiVi/1")} src='http://thepizzacompany.vn/images/thumbs/000/0003870_bbq-chicken-platter-2pcs_300.jpeg'></img>
-                <h2 id='cuoi'>Gà Nướng BBQ (2 miếng)</h2>
-                <div className='des' id='cuoi'>Thịt gà mềm ngọt, thấm đẫm gia vị, da gà giòn rụm, màu vàng ươm bắt mắt</div>
+                <h2 id='cuoi'>BBQ Grilled Chicken (2 pieces)</h2>
+                <div className='des' id='cuoi'>The chicken meat is soft and sweet, soaked in spices, the chicken skin is crispy, and the color is eye-catching yellow</div>
                 {/* <div id='cuoi'>Thousand Island</div> */}
                 <div className='temp'>
                     <div>
-                        <div className='gia-chi-tu'>Giá chỉ từ</div>
+                        <div className='gia-chi-tu'>Only</div>
                         <div className='price'>99.000đ</div>
                     </div>
-                    <button onClick={()=>navigate("/detailKhaiVi/1")} className='mua-ngay'>Mua ngay</button>
+                    <button onClick={()=>navigate("/detailKhaiVi/1")} className='mua-ngay'>Buy Now</button>
                 </div>
             </div>
         </div>
