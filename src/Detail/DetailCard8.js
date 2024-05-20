@@ -28,7 +28,7 @@ function DetailCard8(props) {
                 <div className='DetailBox2'>
                     <div className='Box2'>
                         <div className='price'>___</div>
-                        <h2>Pizza Thịt Xông Khói</h2>
+                        <h2>Bacon Pizza</h2>
                         <div className='kich-thuoc'>Small size 6" with thick base</div>    
 
                         <div>Ham, bacon and two vegetables of green peppers, tomatoes</div>
