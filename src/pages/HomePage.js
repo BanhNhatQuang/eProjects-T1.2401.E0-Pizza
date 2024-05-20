@@ -1,8 +1,9 @@
 import React from 'react';
 import './HomePage.css';
-import { Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes, Link, useNavigate } from 'react-router-dom';
 
 function HomePage() {
+    const navigate = useNavigate()
     return (
         <div className='row'>
             <Routes>
@@ -93,11 +94,12 @@ function HomePage() {
                                 src="/hinhanhhomepage/pizza1.png"
                                 className="card-img-top"
                                 alt="Card"
+                                onClick={()=>navigate("/detail/2")}
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Pizza Hải Sản Đào</Link></h5>
-                                <p className="card-text">Tôm, đào hòa quyện bùng nổ cùng sốt Thounsand Island</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <h5><Link to="/" className="card-title">Green Pesto Seafood Pizza</Link></h5>
+                                <p className="card-text">Fresh shrimp, squid and broccoli on a base of Green Pesto sauce</p>
+                                <Link to="/detail/2" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
@@ -107,11 +109,12 @@ function HomePage() {
                                 src="/hinhanhhomepage/pizza2.png"
                                 className="card-img-top"
                                 alt="Card"
+                                onClick={()=>navigate("/detail/6")}
                             />
                             <div className="card-body">
                                 <h5><Link to="/" className="card-title">Pizza Tôm Cocktail</Link></h5>
                                 <p className="card-text">Tôm với nấm, dứa, cà chua và sốt Thousand Island.</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <Link to="/detail/6" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
@@ -120,12 +123,13 @@ function HomePage() {
                             <img
                                 src="/hinhanhhomepage/pizza3.png"
                                 className="card-img-top"
+                                onClick={()=>navigate("/detail/3")}
                                 alt="Card"
                             />
                             <div className="card-body">
                                 <h5><Link to="/" className="card-title">Pizza Hải Sản Pesto</Link></h5>
                                 <p className="card-text">Tôm, mực và bông cải xanh tươi ngon trên nền sốt Pesto Xanh</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <Link to="/detail/3" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
@@ -134,12 +138,13 @@ function HomePage() {
                             <img
                                 src="/hinhanhhomepage/pizza4.png"
                                 className="card-img-top"
+                                onClick={()=>navigate("/detail/5")}
                                 alt="Card"
                             />
                             <div className="card-body">
                                 <h5><Link to="/" className="card-title">Pizza Thịt Xông Khói</Link></h5>
                                 <p className="card-text">Thịt giăm bông, thịt xông khói và hai loại rau của ớt xanh, cà chua</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <Link to="/detail/5" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
@@ -153,40 +158,43 @@ function HomePage() {
                             <img
                                 src="/hinhanhhomepage/khaivi1.png"
                                 className="card-img-top"
+                                onClick={()=>navigate("/detailKhaiVi/7")}
                                 alt="Card"
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Gà Giòn Sốt Hàn (2 miếng)</Link></h5>
+                                <h5><Link to="/" className="card-title">Gà Giòn Sốt Hàn Truyền Thống (2 miếng)</Link></h5>
                                 <p className="card-text">Ngon hơn khi dùng kèm xốt mù tạc mật ong và củ cải lên men.</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <Link to="/detailKhaiVi/7" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3 text-start">
                         <div className="card" style={{ width: '18rem' }}>
                             <img
-                                src="/hinhanhhomepage/khaivi2.png"
+                                src="/hinhanhhomepage/khaivi1.png"
                                 className="card-img-top"
+                                onClick={()=>navigate("/detailKhaiVi/8")}
                                 alt="Card"
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Gà Giòn Sốt Hàn (5 miếng)</Link></h5>
+                                <h5><Link to="/" className="card-title">Gà Giòn Sốt Hàn Truyền Thống (5 miếng)</Link></h5>
                                 <p className="card-text">Ngon hơn khi dùng kèm xốt mù tạc mật ong và củ cải lên men.</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <Link to="/detailKhaiVi/8" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3 text-start">
                         <div className="card" style={{ width: '18rem' }}>
                             <img
-                                src="/hinhanhhomepage/khaivi3.png"
+                                src="/hinhanhhomepage/khaivi1.png"
                                 className="card-img-top"
                                 alt="Card"
+                                onClick={()=>navigate("/detailKhaiVi/9")}
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Gà Giòn Sốt Hàn (9 miếng)</Link></h5>
+                                <h5><Link to="/" className="card-title">Gà Giòn Sốt Hàn Truyền Thống (9 miếng)</Link></h5>
                                 <p className="card-text">Ngon hơn khi dùng kèm xốt mù tạc mật ong và củ cải lên men.</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <Link to="/detailKhaiVi/9" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
@@ -195,20 +203,21 @@ function HomePage() {
                             <img
                                 src="/hinhanhhomepage/khaivi4.png"
                                 className="card-img-top"
+                                onClick={()=>navigate("/detailKhaiVi/10")}
                                 alt="Card"
                             />
                             <div className="card-body">
                                 <h5><Link to="/" className="card-title">Gà Giòn Sốt Tương Tỏi</Link></h5>
                                 <p className="card-text">Công thức đặc biệt pha chút vị the nhè nhẹ và mùi thơm của gừng, tỏi.</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <Link to="/detailKhaiVi/10" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 {/* Row 4 */}
-                <h3 className="title">Mì Ý</h3>
-                <div className="row gx-5">
+                {/* <h3 className="title">Mì Ý</h3> */}
+                {/* <div className="row gx-5">
                     <div className="col-md-3 text-start">
                         <div className="card" style={{ width: '18rem' }}>
                             <img
@@ -269,7 +278,7 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
