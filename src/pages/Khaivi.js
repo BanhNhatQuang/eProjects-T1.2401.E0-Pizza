@@ -17,7 +17,7 @@ function Khaivi(props) {
     const { KhaiVi, setKhaiVi } = props
     return (
         <div>
-            <h1 className='name'>Khai vị</h1>
+            <h1 className='name'>Starter</h1>
             <div>
                 {/* {KhaiVi.map((item, index) => (
                     <div className='list' key={index}>

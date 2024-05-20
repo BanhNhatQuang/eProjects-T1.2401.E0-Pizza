@@ -6,6 +6,8 @@
     background-color: aquamarine;
     height: 200px;
     display: flex;
+    border-radius: 20px;
+
     /* padding: 1rem */
 }
 .FirstBar{

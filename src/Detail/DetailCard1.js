@@ -28,22 +28,22 @@ function DetailCard1(props) {
                 <div className='DetailBox2'>
                     <div className='Box2'>
                         <div className='price'>___</div>
-                        <h2>Pizza Hải Sản Đào</h2>
-                        <div className='kich-thuoc'>Kích thước Nhỏ 6” - Đế Dày</div>
-                        <div>Tôm, Đào hoà quyện bùng nổ cùng sốt</div>
+                        <h2>Seafood and Peach Pizza</h2>
+                        <div className='kich-thuoc'>Small size 6" with thick base</div>    
+                        <div>Scrimps and Peaches blended beautifully with each other</div>
                         {/* <br></br> */}
-                        <h3 className='kich-thuoc'>Kích Thước</h3>
-                        <button onClick={handleClickBtn1} className={id==0 ? 'btn0':'btn1'}>Nhỏ 6"</button>
-                        <button onClick={handleClickBtn2} className={id==1 ? 'btn0':'btn1'}>Vừa 9"</button>
-                        <button onClick={handleClickBtn3} className={id==2 ? 'btn0':'btn1'}>Lớn 12"</button>
+                        <h3 className='kich-thuoc'>Size</h3>
+                        <button onClick={handleClickBtn1} className={id==0 ? 'btn0':'btn1'}>Small 6"</button>
+                        <button onClick={handleClickBtn2} className={id==1 ? 'btn0':'btn1'}>Medium 9"</button>
+                        <button onClick={handleClickBtn3} className={id==2 ? 'btn0':'btn1'}>Large 12"</button>
                         <div className='dash'>_____________________________________________</div>
-                        <h3 className='kich-thuoc'>Đế</h3>
+                        <h3 className='kich-thuoc'>Base</h3>
                         <input type="radio" name="status" checked></input>
-                        <label>Dày</label>
+                        <label>Thick</label>
                         <div className='dash'>_____________________________________________</div>
                         {/* <br></br> */}
-                        <h3 className='kich-thuoc'>Ghi Chú</h3>
-                        <input type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
+                        <h3 className='kich-thuoc'>Note</h3>
+                        <input type='text' placeholder='Enter your note here'></input>
                     {/* <ThemVaoGioHang></ThemVaoGioHang> */}
                     <div className='last'>
                             <ThemVaoGioHang></ThemVaoGioHang>

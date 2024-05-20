@@ -3,8 +3,8 @@ import './GhiChu.css'
 function GhiChu(props) {
     return (
         <div>
-            <h3 className='kich-thuoc'>Ghi Chú</h3>
-            <input className='GhiChu' type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
+            <h3 className='kich-thuoc'>Note</h3>
+            <input className='GhiChu' type='text' placeholder='Enter your note here'></input>
         </div>
     );
 }

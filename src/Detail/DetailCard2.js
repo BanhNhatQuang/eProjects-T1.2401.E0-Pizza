@@ -23,22 +23,23 @@ function DetailCard2() {
                     <div className='DetailBox2'>
                         <div className='Box2'>
                             <div className='price'>___</div>
-                            <h2>Pizza Hải Sản Pesto Xanh</h2>
-                            <div className='kich-thuoc'>Kích thước Nhỏ 6” - Đế Dày</div>   
-                            <div>Tôm, thanh cua, mực và bông cải xanh tươi ngon trên nền sốt Pesto Xanh</div>
+                            <h2>Green Pesto Seafood Pizza</h2>
+                            <div className='kich-thuoc'>Small size 6" with thick base</div>    
+
+                            <div>Fresh shrimp, crab sticks, squid and broccoli on a base of Green Pesto sauce</div>
                             <br></br>
-                            <h3 className='kich-thuoc'>Kích Thước</h3>
-                            <button onClick={handleClickBtn1} className={id == 0 ? 'btn0' : 'btn1'}>Nhỏ 6"</button>
-                            <button onClick={handleClickBtn2} className={id == 1 ? 'btn0' : 'btn1'}>Vừa 9"</button>
-                            <button onClick={handleClickBtn3} className={id == 2 ? 'btn0' : 'btn1'}>Lớn 12"</button>
-                            <div className='dash'>_____________________________________________</div>
-                            <h3 className='kich-thuoc'>Đế</h3>
-                            <input type="radio" name="status" checked></input>
-                            <label>Dày</label>
-                            <div className='dash'>_____________________________________________</div>
-                            <br></br>
-                            <h3 className='kich-thuoc'>Ghi Chú</h3>
-                            <input type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
+                            <h3 className='kich-thuoc'>Size</h3>
+                        <button onClick={handleClickBtn1} className={id==0 ? 'btn0':'btn1'}>Small 6"</button>
+                        <button onClick={handleClickBtn2} className={id==1 ? 'btn0':'btn1'}>Medium 9"</button>
+                        <button onClick={handleClickBtn3} className={id==2 ? 'btn0':'btn1'}>Large 12"</button>
+                        <div className='dash'>_____________________________________________</div>
+                        <h3 className='kich-thuoc'>Base</h3>
+                        <input type="radio" name="status" checked></input>
+                        <label>Thick</label>
+                        <div className='dash'>_____________________________________________</div>
+                        {/* <br></br> */}
+                        <h3 className='kich-thuoc'>Note</h3>
+                        <input type='text' placeholder='Enter your note here'></input>
                     {/* <ThemVaoGioHang></ThemVaoGioHang> */}
                     <div className='last'>
                             <ThemVaoGioHang></ThemVaoGioHang>

@@ -14,6 +14,7 @@ import Drink11 from '../DrinksCards/Drink11';
 function ThucUong(props) {
     return (
         <div>
+            <h1 className='name'>Drinks</h1>
             <div className='list'>
                 <Drink1></Drink1>
                 <Drink2></Drink2>
