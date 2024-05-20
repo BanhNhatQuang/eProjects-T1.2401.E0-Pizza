@@ -67,7 +67,7 @@ function App() {
   }, [])
   // console.log("hello", products);
   return (
-    <div className="">
+    <div className="container-fluid">
       <Routes>
         <Route element={<Header></Header>}></Route>
         <Route element={<LoginPopup></LoginPopup>}></Route>
