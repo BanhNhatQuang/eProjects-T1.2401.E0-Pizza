@@ -8,7 +8,7 @@ function Card4(props) {
     return (
         <div>
             <div>
-            <div className='card2'>
+            <div className='card'>
                     <img id='PICTURE' onClick={()=>navigate("/detail/4")} className='pic' src='http://thepizzacompany.vn/images/thumbs/000/0002214_sf-deluxe_300.png'></img>
                     <h2 id='cuoi'>Premium Seafood Pizza</h2>
                     <div className='des'>Shrimp, crab, squid and clams with sauce</div>

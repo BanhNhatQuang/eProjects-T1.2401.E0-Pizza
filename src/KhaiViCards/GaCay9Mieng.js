@@ -9,15 +9,15 @@ function GaCay9Mieng(props) {
         <div>
             <div className='card2'>
                 <img className='pic' onClick={()=>navigate("/detailKhaiVi/6")} id='Cay3' src='http://thepizzacompany.vn/images/thumbs/000/0003870_bbq-chicken-platter-2pcs_300.jpeg'></img>
-                <h2 id='cuoi'>Gà Giòn Xốt Hàn - Cay (9 miếng)</h2>
-                <div className='des' id='cuoi'>Phục vụ kèm xốt mù tạc mật ong và củ cải lên men.</div>
+                <h2 id='cuoi'>Crispy Chicken with Korean Sauce - Spicy (9 pieces)</h2>
+                <div className='des' id='cuoi'>Served with honey mustard sauce and fermented radish.</div>
                 {/* <div id='cuoi'>Thousand Island</div> */}
                 <div className='temp'>
                     <div>
-                        <div className='gia-chi-tu'>Giá chỉ từ</div>
+                        <div className='gia-chi-tu'>Only</div>
                         <div className='price'>429.000đ</div>
                     </div>
-                    <button onClick={()=>navigate("/detailKhaiVi/6")} className='mua-ngay'>Mua ngay</button>
+                    <button onClick={()=>navigate("/detailKhaiVi/6")} className='mua-ngay'>Buy Now</button>
                 </div>
             </div>
         </div>

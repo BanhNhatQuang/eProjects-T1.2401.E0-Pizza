@@ -1,8 +1,9 @@
 import React from 'react';
 import './HomePage.css';
-import { Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes, Link, useNavigate } from 'react-router-dom';
 
 function HomePage() {
+    const navigate = useNavigate()
     return (
         <div className='row'>
             <Routes>
@@ -11,7 +12,7 @@ function HomePage() {
                 <Route />
             </Routes>
             <div className="container-fluid" style={{ padding: '2rem' }}>
-                <h2 className='title'>Khuyến Mãi, Combo</h2>
+                <h2 className='title'>Promotes and Comboes</h2>
                 {/* Row 1 */}
                 <div className="row gx-5">
                     <div className="col-md-3 text-start">
@@ -23,9 +24,9 @@ function HomePage() {
                                 style={{ maxWidth: '90%' }}
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Mua 1 Tặng 1 Pizza Chay Size L</Link></h5>
-                                <p className="card-text">Mua 1 Pizza size L, tặng 1 Pizza (Đế Dày/Mỏng) dòng Classic cùng cỡ.</p>
-                                <Link to="/" className="btn btn-success">Chỉ từ 169.000</Link>
+                                <h5><Link to="/" className="card-title">Buy 1 any Pizza and get 1 vegeterian pizza free</Link></h5>
+                                <p className="card-text">Buy 1 Pizza size L, get 1 Free Classic Pizza (Thick/Thin Crust) of the same size.</p>
+                                <Link to="/" className="btn btn-success">Only 169.000</Link>
                             </div>
                         </div>
                     </div>
@@ -38,9 +39,9 @@ function HomePage() {
                                 style={{ maxWidth: '90%' }}
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Mua 1 Tặng 1 Pizza Bất Kì Size L</Link></h5>
-                                <p className="card-text">Mua 1 Pizza size L, tặng 1 Pizza (Đế Dày/Mỏng) dòng Classic cùng cỡ.</p>
-                                <Link to="/" className="btn btn-success">Chỉ từ 309.000</Link>
+                                <h5><Link to="/" className="card-title">Buy 1 Get 1 Free Any Pizza Size L</Link></h5>
+                                <p className="card-text">Buy 1 Pizza size L, get 1 Free Classic Pizza (Thick/Thin Crust) of the same size.</p>
+                                <Link to="/" className="btn btn-success">Only 309.000</Link>
                             </div>
                         </div>
                     </div>
@@ -53,9 +54,9 @@ function HomePage() {
                                 style={{ maxWidth: '90%' }}
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Mua Pizza Khổng Lồ Giảm 50%</Link></h5>
-                                <p className="card-text">Giảm 50% cho Pizza size khổng lồ, khẩu phần lớn hơn, tiết kiệm hơn, xịn hơn</p>
-                                <Link to="/" className="btn btn-success">Chỉ từ 250.000</Link>
+                                <h5><Link to="/" className="card-title">Buy Giant Pizza 50% Off</Link></h5>
+                                <p className="card-text">50% off on giant size Pizza, bigger portions, more economical, better quality</p>
+                                <Link to="/" className="btn btn-success">Only 250.000</Link>
                             </div>
                         </div>
                     </div>
@@ -68,9 +69,9 @@ function HomePage() {
                                 style={{ maxWidth: '90%' }}
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Mua 1 Tặng 1 Pizza Size M Siêu Hời</Link></h5>
-                                <p className="card-text">Mua 1 Pizza size M, tặng 1 Pizza (Đế Dày/Mỏng) dòng Classic cùng cỡ.</p>
-                                <Link to="/" className="btn btn-success">Chỉ Từ 79.000</Link>
+                                <h5><Link to="/" className="card-title">Buy 1 Get 1 Free Pizza Size M Super Deal</Link></h5>
+                                <p className="card-text">Buy 1 Pizza size M, get 1 Free Classic Pizza (Thick/Thin Crust) of the same size.</p>
+                                <Link to="/" className="btn btn-success">Only 79.000</Link>
                             </div>
                         </div>
                     </div>
@@ -79,7 +80,7 @@ function HomePage() {
                 
                 <div className="row gx-5 mt-4">
                     <div className="col-12">
-                        <h2 className='title'>Thực Đơn</h2>
+                        <h2 className='title'>Menu</h2>
                         <hr style={{ width: '20%', border: '1px solid #00a859' }} />
                         <h2 className='title'>Pizza</h2>
                     </div>
@@ -93,11 +94,12 @@ function HomePage() {
                                 src="/hinhanhhomepage/pizza1.png"
                                 className="card-img-top"
                                 alt="Card"
+                                onClick={()=>navigate("/detail/2")}
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Pizza Hải Sản Đào</Link></h5>
-                                <p className="card-text">Tôm, đào hòa quyện bùng nổ cùng sốt Thounsand Island</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <h5><Link to="/" className="card-title">Green Pesto Seafood Pizza</Link></h5>
+                                <p className="card-text">Fresh shrimp, squid and broccoli on a base of Green Pesto sauce</p>
+                                <Link to="/detail/2" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
@@ -107,11 +109,12 @@ function HomePage() {
                                 src="/hinhanhhomepage/pizza2.png"
                                 className="card-img-top"
                                 alt="Card"
+                                onClick={()=>navigate("/detail/6")}
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Pizza Tôm Cocktail</Link></h5>
-                                <p className="card-text">Tôm với nấm, dứa, cà chua và sốt Thousand Island.</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <h5><Link to="/" className="card-title">Pizza Shrimp Cocktail</Link></h5>
+                                <p className="card-text">Shrimp with mushrooms, pineapple, tomatoes and Thousand Island dressing.</p>
+                                <Link to="/detail/6" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
@@ -120,12 +123,13 @@ function HomePage() {
                             <img
                                 src="/hinhanhhomepage/pizza3.png"
                                 className="card-img-top"
+                                onClick={()=>navigate("/detail/3")}
                                 alt="Card"
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Pizza Hải Sản Pesto</Link></h5>
-                                <p className="card-text">Tôm, mực và bông cải xanh tươi ngon trên nền sốt Pesto Xanh</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <h5><Link to="/" className="card-title">Pesto Seafood Pizza</Link></h5>
+                                <p className="card-text">Fresh shrimp, squid and broccoli on a bed of Green Pesto sauce</p>
+                                <Link to="/detail/3" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
@@ -134,59 +138,63 @@ function HomePage() {
                             <img
                                 src="/hinhanhhomepage/pizza4.png"
                                 className="card-img-top"
+                                onClick={()=>navigate("/detail/5")}
                                 alt="Card"
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Pizza Thịt Xông Khói</Link></h5>
-                                <p className="card-text">Thịt giăm bông, thịt xông khói và hai loại rau của ớt xanh, cà chua</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <h5><Link to="/" className="card-title">Tropical Seafood Pizza</Link></h5>
+                                <p className="card-text">Shrimp, clams, crab squid, pineapple with Thousand Island sauce</p>
+                                <Link to="/detail/5" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 {/* Row 3 */}
-                <h3 className="title">Khai Vị</h3>
+                <h3 className="title">Starter</h3>
                 <div className="row gx-5">
                     <div className="col-md-3 text-start">
                         <div className="card" style={{ width: '18rem' }}>
                             <img
                                 src="/hinhanhhomepage/khaivi1.png"
                                 className="card-img-top"
+                                onClick={()=>navigate("/detailKhaiVi/7")}
                                 alt="Card"
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Gà Giòn Sốt Hàn (2 miếng)</Link></h5>
-                                <p className="card-text">Ngon hơn khi dùng kèm xốt mù tạc mật ong và củ cải lên men.</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <h5><Link to="/" className="card-title">Crispy Chicken with Traditional Korean Sauce (2 pieces)</Link></h5>
+                                <p className="card-text">It's more delicious when served with honey mustard sauce and fermented radish.</p>
+                                <Link to="/detailKhaiVi/7" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3 text-start">
                         <div className="card" style={{ width: '18rem' }}>
                             <img
-                                src="/hinhanhhomepage/khaivi2.png"
+                                src="/hinhanhhomepage/khaivi1.png"
                                 className="card-img-top"
+                                onClick={()=>navigate("/detailKhaiVi/8")}
                                 alt="Card"
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Gà Giòn Sốt Hàn (5 miếng)</Link></h5>
-                                <p className="card-text">Ngon hơn khi dùng kèm xốt mù tạc mật ong và củ cải lên men.</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <h5><Link to="/" className="card-title">Crispy Chicken with Traditional Korean Sauce (5 pieces)</Link></h5>
+                                <p className="card-text">It's more delicious when served with honey mustard sauce and fermented radish.</p>
+                                <Link to="/detailKhaiVi/8" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3 text-start">
                         <div className="card" style={{ width: '18rem' }}>
                             <img
-                                src="/hinhanhhomepage/khaivi3.png"
+                                src="/hinhanhhomepage/khaivi1.png"
                                 className="card-img-top"
                                 alt="Card"
+                                onClick={()=>navigate("/detailKhaiVi/9")}
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Gà Giòn Sốt Hàn (9 miếng)</Link></h5>
-                                <p className="card-text">Ngon hơn khi dùng kèm xốt mù tạc mật ong và củ cải lên men.</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <h5><Link to="/" className="card-title">Crispy Chicken with Traditional Korean Sauce (9 pieces)</Link></h5>
+                                <p className="card-text">It's more delicious when served with honey mustard sauce and fermented radish.</p>
+                                <Link to="/detailKhaiVi/9" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
@@ -195,20 +203,21 @@ function HomePage() {
                             <img
                                 src="/hinhanhhomepage/khaivi4.png"
                                 className="card-img-top"
+                                onClick={()=>navigate("/detailKhaiVi/10")}
                                 alt="Card"
                             />
                             <div className="card-body">
-                                <h5><Link to="/" className="card-title">Gà Giòn Sốt Tương Tỏi</Link></h5>
-                                <p className="card-text">Công thức đặc biệt pha chút vị the nhè nhẹ và mùi thơm của gừng, tỏi.</p>
-                                <Link to="/" className="btn btn-success">View More</Link>
+                                <h5><Link to="/" className="card-title">Crispy Chicken with Garlic Sauce (2 pieces)</Link></h5>
+                                <p className="card-text">Special formula mixed with a light taste and aroma of ginger and garlic.</p>
+                                <Link to="/detailKhaiVi/10" className="btn btn-success">View More</Link>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 {/* Row 4 */}
-                <h3 className="title">Mì Ý</h3>
-                <div className="row gx-5">
+                {/* <h3 className="title">Mì Ý</h3> */}
+                {/* <div className="row gx-5">
                     <div className="col-md-3 text-start">
                         <div className="card" style={{ width: '18rem' }}>
                             <img
@@ -269,7 +278,7 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

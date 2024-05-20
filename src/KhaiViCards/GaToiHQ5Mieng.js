@@ -10,15 +10,15 @@ function GaToiHQ5Mieng(props) {
             <div>
                 <div className='card2'>
                     <img className='pic' id='PICTURE' onClick={()=>navigate("/detailKhaiVi/11")} src='http://thepizzacompany.vn/images/thumbs/000/0003952_crispy-chicken-with-sg-sauce2pcs_300.png'></img>
-                    <h2 id='cuoi'>Gà Giòn Xốt Tương Tỏi Hàn Quốc (5 miếng)</h2>
-                    <div className='des' id='cuoi'>Công thức đặc biệt pha chút vị the nhè nhẹ và mùi thơm của gừng, tỏi mang đến cảm giác mới lạ khi thưởng thức.</div>
+                    <h2 id='cuoi'>Crispy Chicken with Garlic Sauce (5 pieces)</h2>
+                    <div className='des' id='cuoi'>Special formula mixed with a light taste and aroma of ginger and garlic.</div>
                     {/* <div id='cuoi'>Thousand Island</div> */}
                     <div className='temp'>
                         <div>
-                            <div className='gia-chi-tu'>Giá chỉ từ</div>
+                            <div className='gia-chi-tu'>Only</div>
                             <div className='price'>249.000đ</div>
                         </div>
-                        <button onClick={()=>navigate("/detailKhaiVi/11")} className='mua-ngay'>Mua ngay</button>
+                        <button onClick={()=>navigate("/detailKhaiVi/11")} className='mua-ngay'>Buy Now</button>
                     </div>
                 </div>
             </div>

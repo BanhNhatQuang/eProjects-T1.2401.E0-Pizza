@@ -5,7 +5,7 @@ function Card1(props) {
     const navigate = useNavigate();
     return (
         <div>
-            <div className='card1'>
+            <div className='card'>
                     <img className='pic' id='PICTURE' onClick={()=>navigate("/detail/1")} src='http://thepizzacompany.vn/images/thumbs/000/0003102_seafood-peach-test_300.png'></img>
                     <h2 id='cuoi'>Peach Seafood Pizza</h2>
                     <div className='des'>Shrimp and peaches blend explosively with the sauce</div>
