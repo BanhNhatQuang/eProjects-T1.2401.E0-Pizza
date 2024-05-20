@@ -8,6 +8,7 @@ import Salad5 from '../SaladCards/Salad5';
 function Salad(props) {
     return (
         <div>
+            <h1 className='name'>Salad</h1>
             <div className='list'>
                 <Salad1></Salad1>
                 <Salad2></Salad2>
