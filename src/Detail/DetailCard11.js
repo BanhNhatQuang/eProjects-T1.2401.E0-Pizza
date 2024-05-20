@@ -31,7 +31,7 @@ function DetailCard11(props) {
                         <h2>Pizza 5 Loại Thịt Đặc Biệt</h2>
                         <div className='kich-thuoc'>Small size 6" with thick base</div>    
 
-                        <div>Xúc xích lợn và bò đặc trưng của Ý, giăm bông, thịt xông khói</div>
+                        <div>Typical Italian pork and beef sausages, ham, bacon</div>
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Size</h3>
                         <button onClick={handleClickBtn1} className={id==0 ? 'btn0':'btn1'}>Small 6"</button>
