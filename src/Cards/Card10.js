@@ -10,14 +10,14 @@ function Card10() {
             <div>
             <div className='card2'>
                     <img className='pic-cuoi' onClick={()=>navigate("/detail/10")} id='hinh10' src='http://thepizzacompany.vn/images/thumbs/000/0002223_ck-trio_300.png'></img>
-                    <h2 id='cuoi'>Pizza Gà Nướng 3 Vị</h2>
-                    <div className='des' id='cuoi2'>Gà nướng, gà bơ tỏi và gà ướp sốt nấm</div>
+                    <h2 id='cuoi'>Chicken Grilled Pizza</h2>
+                    <div className='des' id='cuoi2'>Grilled chicken, garlic butter chicken and chicken marinated in mushroom sauce</div>
                     <div className='temp'>
                         <div>
-                            <div className='hello'>Giá chỉ từ</div>
+                            <div className='hello'>Price</div>
                             <div className='price'>149.000đ</div>
                         </div>
-                        <button onClick={()=>navigate("/detail/10")} className='mua-ngay'>Mua ngay</button>
+                        <button onClick={()=>navigate("/detail/10")} className='mua-ngay'>Buy now</button>
                     </div>
                 </div>
         </div>

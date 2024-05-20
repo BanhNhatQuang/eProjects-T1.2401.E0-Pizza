@@ -10,14 +10,14 @@ function Card8(props) {
             <div>
             <div className='card2'>
                     <img id='PICTURE' onClick={()=>navigate("/detail/8")} className='pic' src='http://thepizzacompany.vn/images/thumbs/000/0002221_bacon-sup_300.png'></img>
-                    <h2 id='cuoi'>Pizza Thịt Xông Khói</h2>
-                    <div className='des' id='cuoi'>Thịt giăm bông, thịt xông khói và hai loại rau của ớt xanh, cà chua</div>
+                    <h2 id='cuoi'>Bacon Pizza</h2>
+                    <div className='des' id='cuoi'>Ham, bacon and two vegetables of green peppers, tomatoes</div>
                     <div className='temp'>
                         <div>
-                            <div className='hello'>Giá chỉ từ</div>
+                            <div className='hello'>Price</div>
                             <div className='price'>149.000đ</div>
                         </div>
-                        <button onClick={()=>navigate("/detail/8")} className='mua-ngay'>Mua ngay</button>
+                        <button onClick={()=>navigate("/detail/8")} className='mua-ngay'>Buy now</button>
                     </div>
                 </div>
         </div>
