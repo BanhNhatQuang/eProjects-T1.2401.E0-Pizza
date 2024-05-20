@@ -10,14 +10,14 @@ function Card17(props) {
             <div>
             <div className='card1'>
                     <img className='pic' id='PICTURE' onClick={()=>navigate("/detail/17")} src='http://thepizzacompany.vn/images/thumbs/000/0002226_double-cheese_300.png'></img>
-                    <h2 id='cuoi'>Pizza Phô Mai</h2>
-                    <div className='des'>Bánh Pizza với vô vàn phô mai để bạn tha <div className='des' id='cuoi'>hồ tận hưởng</div> </div>
+                    <h2 id='cuoi'>Cheese Pizza</h2>
+                    <div className='des'>Pizza with lots of cheese for <div className='des' id='cuoi'>you to enjoy</div> </div>
                     <div className='temp'>
                         <div>
-                            <div className='hello'>Giá chỉ từ</div>
+                            <div className='hello'>Price</div>
                             <div className='price'>119.000đ</div>
                         </div>
-                        <button onClick={()=>navigate("/detail/17")} className='mua-ngay'>Mua ngay</button>
+                        <button onClick={()=>navigate("/detail/17")} className='mua-ngay'>Buy now</button>
                     </div>
                 </div>
         </div>

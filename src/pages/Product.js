@@ -24,14 +24,14 @@ function Product(props) {
     return (
         <div>
             <div>
-                <h1 className='name'>Công Thức Đặc Biệt</h1>
+                <h1 className='name'>Special Recipe</h1>
                 <div className='list'>
                     <Card1></Card1>
                     <Card2></Card2>
                 </div>
             </div>
             <div>
-                <h1 className='name'>Hải Sản Cao Cấp</h1>
+                <h1 className='name'>Premium Seafood</h1>
                 <div className='list'>
                     <Card3></Card3>
                     <Card4></Card4>
@@ -40,7 +40,7 @@ function Product(props) {
                 </div>
             </div>
             <div>
-                <h1 className='name'>Thập Cẩm Cao Cấp</h1>
+                <h1 className='name'>Premium Mixed Pizza</h1>
                 <div className='list'>
                     <Card7></Card7>
                     <Card8></Card8>
@@ -55,7 +55,7 @@ function Product(props) {
                 </div>
             </div>
             <div>
-                <h1 className='name'>Truyền Thống</h1>
+                <h1 className='name'>Traditional</h1>
                 <div className='list'>
                     <Card13></Card13>
                     <Card14></Card14>
@@ -64,7 +64,7 @@ function Product(props) {
                 </div>
             </div>
             <div>
-                <h1 className='name'>Pizza Chay</h1>
+                <h1 className='name'>Vegetarain Pizza</h1>
                 <div className='list'>
                     <Card17></Card17>
                     {/* <Card18></Card18> */}

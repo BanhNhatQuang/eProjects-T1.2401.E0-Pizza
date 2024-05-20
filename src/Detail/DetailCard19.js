@@ -31,7 +31,7 @@ function DetailCard19(props) {
                         <h2>Pizza Rau Củ</h2>
                         <div className='kich-thuoc'>Small size 6" with thick base</div>    
 
-                        <div>Hành, ớt chuông, nấm, dứa, cà chua</div>
+                        <div>Onions, bell peppers, mushrooms, pineapple, tomatoes</div>
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Size</h3>
                         <button onClick={handleClickBtn1} className={id==0 ? 'btn0':'btn1'}>Small 6"</button>

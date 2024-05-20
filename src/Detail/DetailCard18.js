@@ -28,7 +28,7 @@ function DetailCard18(props) {
                 <div className='DetailBox2'>
                     <div className='Box2'>
                         <div className='price'>___</div>
-                        <h2>Pizza Sốt nấm Truffle & Bông cải xanh</h2>
+                        <h2>Pizza with Truffle Sauce & Broccoli</h2>
                         <div className='kich-thuoc'>Small size 6" with thick base</div>    
 
                         <div>Với sự kết hợp từ nấm, bông cải xanh và xốt nấm Truffle thơm béo sẽ tạo nên một hương vị khó quên cho những thực khách thích thanh</div>

@@ -11,9 +11,9 @@ function DetailKhaiVi3(props) {
         <div className='DetailBox2'>
             <div className='Box2'>
                 <div className='price'>___</div>
-                <h2>Gà Nướng BBQ (9 miếng)</h2>
+                <h2>BBQ Grilled Chicken (9 pieces)</h2>
                 {/* <div className='kich-thuoc'>Kích thước Nhỏ 6” - Đế Dày</div> */}
-                <div>Thịt gà mềm ngọt, thấm đẫm gia vị, da gà giòn rụm, màu vàng ươm bắt mắt</div>
+                <div>The chicken meat is soft and sweet, soaked in spices, the chicken skin is crispy, and the color is eye-catching yellow</div>
                 {/* <br></br> */}
                 {/* <h3 className='kich-thuoc'>Kích Thước</h3>
                             <button onClick={handleClickBtn1} className={id == 0 ? 'btn' : 'btn1'}>Nhỏ 6"</button>
@@ -25,8 +25,8 @@ function DetailKhaiVi3(props) {
                             <label>Dày</label>
                             <div className='dash'>___________________________________________________</div>
                             <br></br> */}
-                <h3 className='kich-thuoc'>Ghi Chú</h3>
-                    <input className='GhiChu' type='text' placeholder='Nhập ghi chú bạn ở đây'></input>
+                <h3 className='kich-thuoc'>Note</h3>
+                    <input className='GhiChu' type='text' placeholder='Enter your note here'></input>
                     {/* <GhiChu></GhiChu> */}
                     <ThemVaoGioHang></ThemVaoGioHang>
             </div>
