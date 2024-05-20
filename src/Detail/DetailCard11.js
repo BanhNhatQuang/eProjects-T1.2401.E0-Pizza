@@ -28,15 +28,16 @@ function DetailCard11(props) {
                 <div className='DetailBox2'>
                     <div className='Box2'>
                         <div className='price'>___</div>
-                        <h2>Pizza 5 Loại Thịt Đặc Biệt</h2>
-                        <div className='kich-thuoc'>Small size 6" with thick base</div>    
+                        <h2>Five Meat Feast
+                            Special Pizza</h2>
+                        <div className='kich-thuoc'>Small size 6" with thick base</div>
 
                         <div>Typical Italian pork and beef sausages, ham, bacon</div>
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Size</h3>
-                        <button onClick={handleClickBtn1} className={id==0 ? 'btn0':'btn1'}>Small 6"</button>
-                        <button onClick={handleClickBtn2} className={id==1 ? 'btn0':'btn1'}>Medium 9"</button>
-                        <button onClick={handleClickBtn3} className={id==2 ? 'btn0':'btn1'}>Large 12"</button>
+                        <button onClick={handleClickBtn1} className={id == 0 ? 'btn0' : 'btn1'}>Small 6"</button>
+                        <button onClick={handleClickBtn2} className={id == 1 ? 'btn0' : 'btn1'}>Medium 9"</button>
+                        <button onClick={handleClickBtn3} className={id == 2 ? 'btn0' : 'btn1'}>Large 12"</button>
                         <div className='dash'>_____________________________________________</div>
                         <h3 className='kich-thuoc'>Base</h3>
                         <input type="radio" name="status" checked></input>
@@ -45,8 +46,8 @@ function DetailCard11(props) {
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Note</h3>
                         <input type='text' placeholder='Enter your note here'></input>
-                    {/* <ThemVaoGioHang></ThemVaoGioHang> */}
-                    <div className='last'>
+                        {/* <ThemVaoGioHang></ThemVaoGioHang> */}
+                        <div className='last'>
                             <ThemVaoGioHang></ThemVaoGioHang>
                         </div>
                     </div>

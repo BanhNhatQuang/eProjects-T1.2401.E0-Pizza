@@ -31,7 +31,7 @@ function DetailCard18(props) {
                         <h2>Pizza with Truffle Sauce & Broccoli</h2>
                         <div className='kich-thuoc'>Small size 6" with thick base</div>    
 
-                        <div>Với sự kết hợp từ nấm, bông cải xanh và xốt nấm Truffle thơm béo sẽ tạo nên một hương vị khó quên cho những thực khách thích thanh</div>
+                        <div>With the combination of mushrooms, broccoli and fragrant Truffle mushroom sauce</div>
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Size</h3>
                         <button onClick={handleClickBtn1} className={id==0 ? 'btn0':'btn1'}>Small 6"</button>
