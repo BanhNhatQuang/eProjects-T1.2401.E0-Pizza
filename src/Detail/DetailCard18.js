@@ -33,9 +33,9 @@ function DetailCard18(props) {
                         <div>Với sự kết hợp từ nấm, bông cải xanh và xốt nấm Truffle thơm béo sẽ tạo nên một hương vị khó quên cho những thực khách thích thanh</div>
                         {/* <br></br> */}
                         <h3 className='kich-thuoc'>Kích Thước</h3>
-                        <button onClick={handleClickBtn1} className={id==0 ? 'btn':'btn1'}>Nhỏ 6"</button>
-                        <button onClick={handleClickBtn2} className={id==1 ? 'btn':'btn1'}>Vừa 9"</button>
-                        <button onClick={handleClickBtn3} className={id==2 ? 'btn':'btn1'}>Lớn 12"</button>
+                        <button onClick={handleClickBtn1} className={id==0 ? 'btn0':'btn1'}>Nhỏ 6"</button>
+                        <button onClick={handleClickBtn2} className={id==1 ? 'btn0':'btn1'}>Vừa 9"</button>
+                        <button onClick={handleClickBtn3} className={id==2 ? 'btn0':'btn1'}>Lớn 12"</button>
                         <div className='dash'>_____________________________________________</div>
                         <h3 className='kich-thuoc'>Đế</h3>
                         <input type="radio" name="status" checked></input>
