@@ -5,10 +5,10 @@ function MuaNgay(props) {
         <div>
             <div className='temp'>
                 <div>
-                    <div className='hello'>Giá chỉ từ</div>
+                    <div className='hello'>From</div>
                     <div className='price'>119.000đ</div>
                 </div>
-                <button className='mua-ngay'>Mua ngay</button>
+                <button className='mua-ngay'>Buy Now</button>
             </div>
         </div>
     );

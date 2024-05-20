@@ -3,7 +3,7 @@ import './ThemVaoGioHang.css'
 function ThemVaoGioHang(props) {
     return (
         <div>
-            <button className='ThemVaoGioHang'><div className='chu'>THÊM VÀO GIỎ HÀNG</div></button>
+            <button className='ThemVaoGioHang'><div className='chu'>Add to cart</div></button>
         </div>
     );
 }
